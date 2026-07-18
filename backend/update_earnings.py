@@ -199,8 +199,7 @@ def fetch_finnhub():
 
 def merge_sources():
     a = fetch_finnhub()
-    b = fetch_fmp()
-
+    b = fetch_fmp()   # ← NEW
 
     merged = {}
     for row in a + b:
@@ -224,7 +223,6 @@ def merge_sources():
             d = datetime.strptime(date_str, "%Y-%m-%d")
             delta = (d - today).days
             return 0 <= delta <= 10
-
         except:
             return False
 
@@ -247,6 +245,7 @@ def merge_sources():
     merged_list.sort(key=lambda x: (x["date"], -x["volatility_score"]))
 
     return merged_list
+
 
 # ------------------------------------------------------------
 # SAVE JSON LOCALLY
