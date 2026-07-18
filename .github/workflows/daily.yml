@@ -37,4 +37,6 @@ jobs:
         run: |
           git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
         env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
