@@ -44,10 +44,8 @@ def save_cache(cache):
         json.dump(cache, f, indent=2)
 
 def needs_refresh(entry):
-    if "last_update" not in entry:
-        return True
-    last = datetime.strptime(entry["last_update"], "%Y-%m-%d")
-    return (datetime.today() - last).days >= 3
+    return True  # always refresh near-term
+
 
 # ------------------------------------------------------------
 # VOLATILITY SIGNAL FETCHERS
@@ -186,6 +184,7 @@ def fetch_finnhub():
     print("Total Finnhub rows:", len(rows))
     print("Finnhub first 5:", a[:5])
 
+
     return rows
 
 # ------------------------------------------------------------
@@ -263,8 +262,9 @@ def merge_sources():
     count = 0
 
     for row in merged_list:
-        if count < MAX_VOL_TICKERS and is_near_term(row["date"]):
+        if is_near_term(row["date"]):
             vol_entry = fetch_volatility(row["ticker"], cache)
+
             row["volatility_score"] = compute_volatility_score(vol_entry)
             count += 1
         else:
