@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "ticker": "AAPL",
+    "date": "2026-07-30",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSFT",
+    "date": "2026-07-29",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMZN",
+    "date": "2026-07-30",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "META",
+    "date": "2026-07-29",
+    "source": "Finnhub"
+  }
+]
