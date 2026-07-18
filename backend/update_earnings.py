@@ -45,6 +45,8 @@ url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token=
             })
 
     return rows
+print("Finnhub URL:", url)
+print("Finnhub response sample:", r.text[:200])
 
 
 # ------------------------------------------------------------
