@@ -15,15 +15,14 @@ jobs:
       FMP_KEY: ${{ secrets.FMP_KEY }}
       ALPHA_KEY: ${{ secrets.ALPHA_KEY }}
 
-
-
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      - name: Ensure backend folder exists
+        run: mkdir -p backend
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,14 +30,12 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: |
-          pip install requests
+        run: pip install requests
 
       - name: Run backend script
-        run: |
-          python backend/update_earnings.py
+        run: python backend/update_earnings.py
 
-      - name: Commit updated JSON
+      - name: Commit updated JSON and cache
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
@@ -46,11 +43,5 @@ jobs:
           git add backend/vol_cache.json
           git commit -m "Daily earnings update" || echo "No changes to commit"
 
-
       - name: Push changes
-        run: |
-          git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
-
-      - name: Ensure backend folder exists
-        run: mkdir -p backend
-
+        run: git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
