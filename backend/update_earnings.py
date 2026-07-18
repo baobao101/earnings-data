@@ -91,36 +91,39 @@ def fetch_atr_ratio_alpha(ticker):
 # FETCH VOLATILITY (WITH CACHE)
 # ------------------------------------------------------------
 def fetch_volatility(ticker, cache):
-    # Load yesterday's values if they exist
     prev = cache.get(ticker, {})
 
-    # Fetch today's values
     vol = fetch_volatility_alpha(ticker)
     time.sleep(1)
     beta = fetch_beta_alpha(ticker)
     time.sleep(1)
     atr = fetch_atr_ratio_alpha(ticker)
     time.sleep(1)
+    price = fetch_price_alpha(ticker)
+    time.sleep(1)
 
-    # Fallback logic: if today's value is None, use yesterday's
+    # Fallbacks
     vol = vol if vol is not None else prev.get("move")
     beta = beta if beta is not None else prev.get("beta")
     atr = atr if atr is not None else prev.get("atr")
+    price = price if price is not None else prev.get("price")
 
+    # Final safety fallback
+    atr = atr if atr is not None else 0
+    price = price if price is not None else 1  # avoid division by zero
 
-
-
-    # Save updated values back into cache
+    # Save
     cache[ticker] = {
         "iv": None,
         "move": vol,
         "beta": beta,
         "atr": atr,
+        "price": price,
         "last_update": datetime.today().strftime("%Y-%m-%d")
     }
 
-
     return cache[ticker]
+
 
 
 
@@ -131,17 +134,22 @@ def fetch_volatility(ticker, cache):
 
 def compute_volatility_score(entry):
     atr = entry.get("atr") or 0
+    price = entry.get("price") or 1
     move = entry.get("move")
     beta = entry.get("beta")
 
-    # ATR is always used
-    atr_score = min((atr / 5.0) * 100, 100)
+    # Normalized ATR (percentage)
+    norm_atr = atr / price
+
+    # ATR score (0–100)
+    atr_score = min(norm_atr * 1000, 100)  # 0.02 → 20, 0.05 → 50, 0.10 → 100
 
     # Optional signals
     move_score = min(move * 100, 100) if move is not None else 0
     beta_score = min((beta / 2.0) * 100, 100) if beta is not None else 0
 
     return max(atr_score, move_score, beta_score)
+
 
 
 
@@ -185,6 +193,19 @@ def fetch_alpha_vantage():
     print("Total AlphaVantage rows:", len(rows))
     print("AlphaVantage raw sample:", rows[:5])
     return rows
+
+# ------------------------------------------------------------
+# FETCH FROM alpha price to normalize atr
+# ------------------------------------------------------------
+def fetch_price_alpha(ticker):
+    url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={ticker}&apikey={ALPHA_KEY}"
+    r = requests.get(url, timeout=10).json()
+
+    try:
+        return float(r["Global Quote"]["05. price"])
+    except:
+        return None
+
 
 # ------------------------------------------------------------
 # FETCH FROM FINNHUB
