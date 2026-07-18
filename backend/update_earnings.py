@@ -308,3 +308,4 @@ def fetch_fmp():
 
     print("Total FMP rows:", len(rows))
     return rows
+
