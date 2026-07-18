@@ -15,9 +15,9 @@ CACHE_PATH = "backend/vol_cache.json"
 
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 TOKEN = os.environ.get("GH_TOKEN")
-FMP_KEY = os.environ.get("FMP_KEY")
-EODHD_KEY = os.environ.get("EODHD_KEY")
-POLYGON_KEY = os.environ.get("POLYGON_KEY")
+# FMP_KEY = os.environ.get("FMP_KEY")
+# EODHD_KEY = os.environ.get("EODHD_KEY")
+# POLYGON_KEY = os.environ.get("POLYGON_KEY")
 
 # ------------------------------------------------------------
 # SAFE JSON WRAPPER
@@ -226,26 +226,26 @@ def fetch_finnhub():
 # ------------------------------------------------------------
 # FETCH POLYGON
 # ------------------------------------------------------------
-def fetch_polygon():
-    url = f"https://api.polygon.io/v2/reference/financials/earnings?apiKey={POLYGON_KEY}"
-    r = safe_json(url)
+# def fetch_polygon():
+#     url = f"https://api.polygon.io/v2/reference/financials/earnings?apiKey={POLYGON_KEY}"
+#     r = safe_json(url)
 
-    if not r or "results" not in r:
-        print("Polygon returned invalid JSON:", r)
-        return []
+#     if not r or "results" not in r:
+#         print("Polygon returned invalid JSON:", r)
+#         return []
 
-    rows = []
-    for item in r["results"]:
-        if "ticker" in item and "report_date" in item:
-            rows.append({
-                "ticker": item["ticker"],
-                "date": item["report_date"],
-                "source": "Polygon"
-            })
+#     rows = []
+#     for item in r["results"]:
+#         if "ticker" in item and "report_date" in item:
+#             rows.append({
+#                 "ticker": item["ticker"],
+#                 "date": item["report_date"],
+#                 "source": "Polygon"
+#             })
 
-    print("Total Polygon rows:", len(rows))
-    print("Polygon raw sample:", rows[:5])
-    return rows
+#     print("Total Polygon rows:", len(rows))
+#     print("Polygon raw sample:", rows[:5])
+#     return rows
 
 # ------------------------------------------------------------
 # FETCH FROM FMP (v4 endpoint)
