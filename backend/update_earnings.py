@@ -221,7 +221,8 @@ def merge_sources():
     a = fetch_finnhub()
     #b = fetch_eodhd()
     #b = fetch_polygon()
-    b = fetch_yahoo()
+    #b = fetch_yahoo()
+    b = fetch_alpha_vantage()
 
     #b = fetch_fmp()
 
