@@ -218,52 +218,44 @@ def merge_sources():
     a = fetch_finnhub()
     b = fetch_fmp()
 
-    # Option 4: closest future date merge
-    def better_date(new_date_str, old_date_str):
-        try:
-            new = datetime.strptime(new_date_str, "%Y-%m-%d")
-            old = datetime.strptime(old_date_str, "%Y-%m-%d")
-        except:
-            return False
-
-        today = datetime.today()
-
-        new_future = new >= today
-        old_future = old >= today
-
-        if new_future and old_future:
-            return new < old
-
-        if new_future and not old_future:
-            return True
-
-        if old_future and not new_future:
-            return False
-
-        return new > old
-
-    merged = {}
-    for row in a + b:
-        ticker = row["ticker"]
-        if ticker not in merged:
-            merged[ticker] = row
-        else:
-            if better_date(row["date"], merged[ticker]["date"]):
-                merged[ticker] = row
-
-    merged_list = list(merged.values())
-
-    cache = load_cache()
     today = datetime.today()
 
     def is_near_term(date_str):
         try:
             d = datetime.strptime(date_str, "%Y-%m-%d")
-            delta = (d - today).days
-            return 0 <= delta <= 10
+            return 0 <= (d - today).days <= 10
         except:
             return False
 
+    merged = {}
+
+    # First load Finnhub
+    for row in a:
+        merged[row["ticker"]] = row
+
+    # Then merge FMP with rules:
+    # - If Finnhub is near-term, keep Finnhub
+    # - Otherwise prefer FMP
+    for row in b:
+        ticker = row["ticker"]
+
+        if ticker not in merged:
+            merged[ticker] = row
+            continue
+
+        existing = merged[ticker]
+
+        # Finnhub near-term → keep Finnhub
+        if existing["source"] == "Finnhub" and is_near_term(existing["date"]):
+            continue
+
+        # Otherwise FMP overrides
+        merged[ticker] = row
+
+    merged_list = list(merged.values())
+
+    # Volatility scoring
+    cache = load_cache()
     MAX_VOL_TICKERS = 120
     count = 0
 
@@ -280,6 +272,7 @@ def merge_sources():
     merged_list.sort(key=lambda x: (x["date"], -x["volatility_score"]))
 
     return merged_list
+
 
 # ------------------------------------------------------------
 # SAVE JSON LOCALLY
