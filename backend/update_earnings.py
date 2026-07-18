@@ -54,15 +54,6 @@ def needs_refresh(entry):
 # VOLATILITY SIGNAL FETCHERS
 # ------------------------------------------------------------
 
-# def fetch_iv(ticker):
-#     url = f"https://finnhub.io/api/v1/stock/option-chain?symbol={ticker}&token={FINNHUB_KEY}"
-#     r = safe_json(url)
-#     if not r:
-#         return None
-#     try:
-#         return r["data"][0]["implied_volatility"]
-#     except:
-#         return None
 
 def fetch_volatility_alpha(ticker):
     url = f"https://www.alphavantage.co/query?function=VOLATILITY&symbol={ticker}&interval=daily&apikey={ALPHA_KEY}"
