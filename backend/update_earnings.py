@@ -91,9 +91,10 @@ def fetch_atr_ratio_alpha(ticker):
 # FETCH VOLATILITY (WITH CACHE)
 # ------------------------------------------------------------
 def fetch_volatility(ticker, cache):
-    if ticker in cache and not needs_refresh(cache[ticker]):
-        return cache[ticker]
+    # Load yesterday's values if they exist
+    prev = cache.get(ticker, {})
 
+    # Fetch today's values
     vol = fetch_volatility_alpha(ticker)
     time.sleep(1)
     beta = fetch_beta_alpha(ticker)
@@ -101,6 +102,12 @@ def fetch_volatility(ticker, cache):
     atr = fetch_atr_ratio_alpha(ticker)
     time.sleep(1)
 
+    # Fallback logic: if today's value is None, use yesterday's
+    vol = vol if vol is not None else prev.get("move")
+    beta = beta if beta is not None else prev.get("beta")
+    atr = atr if atr is not None else prev.get("atr")
+
+    # Save updated values back into cache
     cache[ticker] = {
         "iv": None,
         "move": vol,
@@ -110,6 +117,7 @@ def fetch_volatility(ticker, cache):
     }
 
     return cache[ticker]
+
 
 
 
