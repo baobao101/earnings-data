@@ -184,6 +184,7 @@ def fetch_finnhub():
     print("Finnhub URL:", url)
     print("Finnhub response sample:", r.text[:200])
     print("Total Finnhub rows:", len(rows))
+    print("Finnhub first 5:", a[:5])
 
     return rows
 
