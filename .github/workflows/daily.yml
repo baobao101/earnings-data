@@ -13,6 +13,7 @@ jobs:
       FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
       FMP_KEY: ${{ secrets.FMP_KEY }}
+      ALPHA_KEY: ${{ secrets.ALPHA_KEY }}
 
 
 
