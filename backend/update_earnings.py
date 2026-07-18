@@ -153,48 +153,28 @@ def compute_volatility_score(entry):
 
 
 # ------------------------------------------------------------
-# FETCH FROM YAHOO
+# FETCH FROM ALPHA
 # ------------------------------------------------------------
+def fetch_alpha_vantage():
+    url = f"https://www.alphavantage.co/query?function=EARNINGS_CALENDAR&apikey={ALPHA_KEY}"
+    r = safe_json(url)
 
-def fetch_yahoo():
-    tickers = []  # we will fill this from Finnhub
-    yahoo_rows = []
+    if not r or "earnings_calendar" not in r:
+        print("Alpha Vantage returned invalid JSON:", r)
+        return []
 
-    # First, collect all tickers from Finnhub so we only query what we need
-    finnhub_data = fetch_finnhub()  # or use your existing variable
-    for item in finnhub_data:
-        tickers.append(item["ticker"])
+    rows = []
+    for item in r["earnings_calendar"]:
+        if "symbol" in item and "reportDate" in item:
+            rows.append({
+                "ticker": item["symbol"],
+                "date": item["reportDate"],
+                "source": "AlphaVantage"
+            })
 
-    # Query Yahoo for each ticker
-    for t in tickers:
-        url = f"https://query2.finance.yahoo.com/v1/finance/calendar?symbol={t}"
-        r = safe_json(url)
-
-        if not r or "calendarEvents" not in r:
-            continue
-
-        earnings = r["calendarEvents"].get("earnings", {})
-        dates = earnings.get("earningsDate", [])
-
-        if not dates:
-            continue
-
-        # Yahoo returns UNIX timestamps; convert them
-        raw_date = dates[0].get("raw")
-        if not raw_date:
-            continue
-
-        date_str = datetime.utcfromtimestamp(raw_date).strftime("%Y-%m-%d")
-
-        yahoo_rows.append({
-            "ticker": t,
-            "date": date_str,
-            "source": "Yahoo"
-        })
-
-    print("Total Yahoo rows:", len(yahoo_rows))
-    print("Yahoo raw sample:", yahoo_rows[:5])
-    return yahoo_rows
+    print("Total AlphaVantage rows:", len(rows))
+    print("AlphaVantage raw sample:", rows[:5])
+    return rows
 
 # ------------------------------------------------------------
 # FETCH FROM FINNHUB
