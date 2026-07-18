@@ -10,9 +10,9 @@ from datetime import datetime, timedelta
 GITHUB_USER = "baobao101"
 REPO_NAME = "earnings-data"
 FILE_PATH = "earnings.json"
-env:
-  FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
+TOKEN = os.environ.get("GH_TOKEN")
+
    # GitHub Actions secret
 
 # ------------------------------------------------------------
