@@ -1,12 +1,322 @@
 [
   {
-    "ticker": "AAPL",
-    "date": "2026-07-30",
+    "ticker": "ADSK",
+    "date": "2026-08-26",
     "source": "Finnhub"
   },
   {
-    "ticker": "MSFT",
-    "date": "2026-07-29",
+    "ticker": "AFRM",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMBA",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BANX",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BBWI",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BBY",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BF.B",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BURL",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BZUN",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CARL",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DG",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EOS",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ETB",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ETJ",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ETV",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FOCL",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GAP",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GCO",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GLMD",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GMS",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HRL",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IREN",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KAYS",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KEN",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KOSS",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LUCK",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MBUU",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MOV",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MRVL",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NAT",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OLLI",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "P",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PRZO",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "S",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SOGP",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TITN",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TULP",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ULTA",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VSXY",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VTGDF",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WOOF",
+    "date": "2026-08-26",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "A",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALCY",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ANF",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BILL",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BSPK",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COO",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRWD",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DCI",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DOMO",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DREM",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DXLG",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FIVE",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FSCO",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GES",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HPQ",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HZRBY",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JKS",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KSS",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LTRX",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MCFT",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MYND",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NOAH",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NTNX",
+    "date": "2026-08-25",
     "source": "Finnhub"
   },
   {
@@ -15,13 +325,7163 @@
     "source": "Finnhub"
   },
   {
-    "ticker": "AMZN",
-    "date": "2026-07-30",
+    "ticker": "PAHC",
+    "date": "2026-08-25",
     "source": "Finnhub"
   },
   {
-    "ticker": "META",
-    "date": "2026-07-29",
+    "ticker": "PLAB",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "REX",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RMT",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SHMD",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SJ",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SJM",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNOW",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TEI",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TIGR",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "URBN",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VEEV",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VMET",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WSM",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "YB",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMWD",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATAT",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BOX",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BULL",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAF",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CDIX",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLM",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNF",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CTRN",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DKS",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DQ",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ELMD",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EMD",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FMTO",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GASS",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GOTU",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HEI",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IIF",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JOYY",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MDB",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSD",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NSSC",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OKTA",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OOMA",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PAI",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PDCC",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PDD",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PSEC",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PVH",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RHCO",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SMTC",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNT",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SOND",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SRAX",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "THCH",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TUYA",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WOLF",
+    "date": "2026-08-24",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AGTX",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BJ",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BKE",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BOSC",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BRID",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DE",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVAX",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FECOF",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FTII",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IGR",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RLX",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SCPX",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UCLE",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UI",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WMT",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZKH",
+    "date": "2026-08-20",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AGLY",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALVO",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AXIL",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CATO",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CHUC",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CSIQ",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DDL",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EL",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HOV",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INTU",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LOW",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LWAC",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MZTI",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NEGG",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NMM",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NROM",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OSIS",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ROST",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SCSC",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SEBC",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SLQT",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TGT",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TJX",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TPCS",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VNET",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WDAY",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XPEV",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "YMM",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "YRD",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "YSG",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZM",
+    "date": "2026-08-19",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ABHBY",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACRG",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADI",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASII",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BIDU",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BZ",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLGN",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COTY",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DY",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EICCF",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FINV",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FUTU",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HD",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IGTA",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IQ",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JBSS",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JFIN",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KC",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KLAR",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NBP",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NCNA",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NDSN",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NNDM",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OICT",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PHYTF",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RERE",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SSM",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TE",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UFI",
+    "date": "2026-08-18",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AAP",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADMT",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AGRO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AHRO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIDG",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIHS",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "API",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AREC",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARX",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATEK",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AUNA",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AXIM",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AXXA",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AZIO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BASA",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BBW",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BRST",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BSFC",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BTO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BYNO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAHO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CBAT",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CCIF",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CETY",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CHMX",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNTB",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CPMV",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRGO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CVU",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DAAQ",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DNMX",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DOYU",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DVLT",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DYNR",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EDXC",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EMCG",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ESGH",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ESTC",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVGN",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FBLA",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FEED",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FFAI",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FGBI",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FGNV",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLNT",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLX",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLXS",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FN",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FOXO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FTFT",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GLOO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRF",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HENI",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HGYN",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IMII",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IQMX",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ITRN",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KBSX",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KEYS",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KTEL",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KUBR",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KUST",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LXEO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LZB",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MAMO",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MCAG",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MDT",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MESH",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MNTS",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NCL",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NMAX",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NRXP",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NTHI",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OLB",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OMEX",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OMQS",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OPRA",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OZSC",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PAIYY",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PANW",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PDIV",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLTYF",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PNRG",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QCLS",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QETA",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QMMM",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RIME",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SCND",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SCTH",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SEGG",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SFL",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SGMT",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SHMN",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNPW",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNTW",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPND",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STI",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SUNE",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TOFB",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TOL",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UUU",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VDRM",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VEEA",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VIK",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VIVK",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VVOS",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VWAV",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WAVE",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WOK",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XONI",
+    "date": "2026-08-17",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALLR",
+    "date": "2026-08-15",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASFH",
+    "date": "2026-08-15",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATHR",
+    "date": "2026-08-15",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACTU",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACXP",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADGM",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AHNR",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIRE",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CREG",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EWCZ",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GPUS",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HURA",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KFII",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KG",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LNZA",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LVLU",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MCIC",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSGE",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSS",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MTBLY",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ONVC",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SLAI",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SMNR",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SOWG",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TKMO",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "YIYU",
+    "date": "2026-08-14",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AFCG",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AFYA",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AGIG",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIT",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMAT",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMCI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARAI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARCO",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATVK",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AURI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AZ",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BAP",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BDVC",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BILI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BIRK",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BIVI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BLIN",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BOF",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BTBT",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BZAI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAAP",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CHAI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CIBY",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COHR",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRCW",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRWV",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CV",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CVAC",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CYCU",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DLO",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DSHK",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ECIA",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EESE",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EMAT",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EQS",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EUSP",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVTL",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FIGR",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FUFU",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GAMB",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GLNG",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GLOB",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GLTK",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GTEC",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GTI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GUTS",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HWH",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ICCC",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INV",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IVF",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JCAP",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JTAI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LASE",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LYTS",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MAGE",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MDXH",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MFON",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MGRM",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MH",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MOBQ",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSGS",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NA",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NNE",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NTES",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NXXT",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OCLN",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ONFO",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OPTX",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OSTX",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PAYD",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PEW",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PREM",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PVLA",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QFIN",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RMHI",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RNW",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RNXT",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SBC",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SECZ",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SHIM",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SLGL",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SMEV",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STEX",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STNE",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TAYD",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TOUR",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TPR",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TVRD",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UMAC",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VENU",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WKHS",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZSPC",
+    "date": "2026-08-13",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AAPI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AASP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ABEO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACIC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACRS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACVA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADMA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADTX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AERT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AGO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIFA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIRI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIRO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIXC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALBT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALLT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMCR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMPG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMPY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMZE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ANIP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ANNA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ANNX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AOSL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "APT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AQUC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARBE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AREN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARTL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASFT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASLE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASNS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASPI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASYS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATXI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATYR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AUID",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AUST",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AVT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AVX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BACK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BAYA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BBLG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BBXIA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BCDA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BCHT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BCLI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BDCO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BEAG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BESS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BETA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BGDE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BHF",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BIAF",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BICX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BINI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BIOA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BKTI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BLBD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BLGO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BLNC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BLNE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BLNK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BNBX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BNGO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BNKK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BNZI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BOLT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BOTY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BPTH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BRGX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BROS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BSEM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BTCS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BTCY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BUDZ",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BURU",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BWMG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BYND",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CADL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CALY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAMP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAPC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAPN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAPR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CBL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CCAP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CCRD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CDIO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CDT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CENT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CEPO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CETX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CFOO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CISO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLBT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLIR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLNN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLRB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLRO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CMMB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNFN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNGO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNNE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNRD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNSP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNTX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNVS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COCP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CODX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COOK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CPAY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CPRX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRTAF",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRWE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CSPI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CSTE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CTKB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CURI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CVM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CYD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CYPH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DAO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DARE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DAVE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DFPH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DHT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DMAC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DOCN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DOX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DPLS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DQWS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DROR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DSS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DTST",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DUOT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DYAI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EAT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EBFI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ECTM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EDBL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EDRY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EFC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EGY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EHTH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ELLH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ELTK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ELTP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ELUT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EMMA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ENS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ENVB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ENVX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ENZN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EQ",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ESEA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVFM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVOK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EXOD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FABC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FBIO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FBRX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FBYD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FFLO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FGI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLYX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FMHS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FRMO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FSI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FSSL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FTLF",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FUST",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FWDI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GALT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GAME",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GBCS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GCT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GEDC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GLSI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GNLN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GNPX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GOGO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GOGY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GORV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GPRK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRDX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRPN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRRR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GSHR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GTBP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GTCH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GTERA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GTHP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GWH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GWRS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HBUV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HCAT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HCWC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HFFG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HIND",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HLLY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HLYK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HMBL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HSAI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HSDT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HSPT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IBRX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IDAI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IGC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IKT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ILAL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IMAQ",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IMRX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IMVT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INKT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INSW",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INVZ",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IONQ",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IPCX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IPDN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IPSI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IPWR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IQST",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ISCO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ISSC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ITP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IVDA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IVVD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JAGX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JOBY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KBLB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KBSR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KCHV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KEEL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KEWL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KGS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KLNG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KLXE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KORE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KRNT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KROS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KTTA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KULR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KVHI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KVUE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KWIK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LAC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LFWD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LGL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LICT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LIEN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LIFD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LIMX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LMFA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LODE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LPAA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LPBBU",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LPTVQ",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LSMG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LTRN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LTUM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LVPR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LWLG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MACI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MALG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MARA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MCGA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MCI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MDWD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MGRX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MIRA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MIST",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MJNA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MLR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MLTX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MNKD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MNTK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MODD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MPAA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MRKR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MRMD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSBB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSGM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSPR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MTNB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MTR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MTW",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MVIS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MXCT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NAGE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NAMS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NASB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NASO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NBRI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NCRA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NDRA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NEON",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NEPH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NHICU",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NIHK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NIKA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NMRA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NMTC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NOMD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NRP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NRXS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NSTS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NU",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NUAI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NUTX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NUVR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NUWE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NVAX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NVVE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NWBO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NXDT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NXPL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OCTV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ODD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OLOX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OMER",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ONCO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OPAL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OPFI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OPRT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ORBT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ORGN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ORMP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OSRH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OTCM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OTLK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OXBR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PACH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PAR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PAYO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PCMC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PCSV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PCVX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PED",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PETV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PEVM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PFSA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PGAC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PHIO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PIII",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLAG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLGO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLMK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLSE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLUG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLUS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PNBK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "POLA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PONY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PORT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PPSI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PRGO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PRLD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PSTV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PULM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PVCT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PVL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PXHI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PYPD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PYXS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QDMI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QMCI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QNST",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QPRC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QSEP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QUBT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QURT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RAFI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RAMP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RANG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RBCN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RBTK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RCUS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RDAG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RDI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RDNW",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RDVT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RDW",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "REEMF",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "REFI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RHEP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RKDA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RLBY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RMSL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RMTI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RNGE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RNTX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RPAY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RPMT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RSAU",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RSKD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RSRV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RTB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RTON",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RVMD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RVP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RVPH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SBDS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SBEV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SCGX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SCM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SDCH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SDEV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SDOT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SEAL PR B",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SERA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SFRX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SGHC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SGRP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SHFS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SIDU",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SIF",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SIMA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SINT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SKYT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SLBT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SLE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SLNG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SMID",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SMXT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNFCA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNGX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNRG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNYR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPAI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPRB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPRO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPRY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPTN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SQFT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SRG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STAA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STCB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STUB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SUIC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SUIG",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SVCO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SVVC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SWKH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TACT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TAIT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TAVI",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TCRT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TDAC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TELA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TELO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TIC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TKNO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TLPH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TLSS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TNC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TNGX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TNYA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TOON",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TRAW",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TRDA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TREP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TTNP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TVA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TVGN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TWAV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TYCB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UAVS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UCIX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UEEC",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UHAL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UNCY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UPB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "USEA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VACH",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VASO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VERF",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VERO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VFF",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VIPS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VMD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VNJA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VNME",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VNRX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VPRB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VRDN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VRRM",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VSAT",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VSTS",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VVV",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VYNE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WHEN",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WHK",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WORX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WRAP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WTER",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WWW",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WYY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XBP",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XELB",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XENE",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XMAX",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XNET",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XPEL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XTIA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XWEL",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XXII",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "YCBD",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "YHGJ",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZDPY",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZIVO",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZSQR",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZURA",
+    "date": "2026-08-12",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AARD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ABCP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ABIT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ABSI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ABVC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACCO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACRV",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADAP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADCT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADIL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADVM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AEMD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AERG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AFJK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIMD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIRJ",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AKTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALMS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ANSC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ANTA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AOMR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "APEI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "APLT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "APTO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AQMS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARAY",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AREB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARMK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATER",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATEX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATPC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AUMN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AWH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AWR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AZTA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BARK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BBAI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BCG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BCSF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BEAM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BEEP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BFRG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BFRI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BGMS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BKYI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BLMH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BMR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BOC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BODI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BORR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BOXL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BRFH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BRN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BSTT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BVS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BYSD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BYSI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAAS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CARV",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CBLL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CCO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CDAQF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CDRE",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CDZI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CELH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CEP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CGEN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CGTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CHEV",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CIFR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CINT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLOQ",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLPT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CLSK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CMCT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CMPD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CMRF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COGT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COLA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CPIX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CPNG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CREX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRNC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRVS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRVW",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRWS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CSAI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CSCO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CTOS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CVSI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CWD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CXDO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CYRX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DERM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DKL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DLPN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DRMA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DWTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DYNC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EAXR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EBS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ELAB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ELVN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EML",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EMYB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ENSC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EPIX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ERNA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EROC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ESTA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ETOR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EUBG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVEX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVGO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVLV",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FACT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FCHS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FDCT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FHTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FIEE",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLOC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLY",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLYW",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FNF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FORA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FOSL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FOTB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FSTR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FTEK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FTH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FUBO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FWRG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GAUZ",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GBLI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GCMG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GENI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GGROU",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GHM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GIFT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GLBE",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GLXY",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GMER",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GOSS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GPAT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRAF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GTEN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GULTU",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GURE",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HALO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HCMC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HGTXU",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HGTY",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HRMY",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HROW",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HRTG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HRTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HSIC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HYLN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HYPD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IBAC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ICU",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IFS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IMTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INBX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INDP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INIS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INLX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INTI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INVU",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INVX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IPAR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IPM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IRD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ITIC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IVFH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IWSH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JANX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JBIO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JOB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JSPR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KANP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KE",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KLRS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KMDA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KOD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KODK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KPLT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KTCC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KWY",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KZR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LAND",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LAR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LCII",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LDI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LEU",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LGND",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LIF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LILA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LIQT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LITE",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LOCL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LPA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LPRO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LQMT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LRN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LUCD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LVTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MASS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MCAP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MCCK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "METC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MGIC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MGNX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MITI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MNDO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MNMB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MNOV",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MOBX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MRAI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MRSN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MRVI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MRX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSAI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MSIF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "MYO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NEWH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NIXX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NPO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NRBT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NRGV",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NSPR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NTWO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NVCT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NVRI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "NVRI WI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OAK PR A",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OGN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OLMA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ONT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OPHC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OSUR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OTLC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "OVID",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PAGS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PANL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PAVM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PBT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PCOK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PDSB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PFGC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PGNT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PHGE",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PIAC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PKTX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PLNT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PMN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PMTR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PMVC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PRCH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PRHI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PRPH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PRPO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PRT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PSNL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "PSTL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "QXO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RDGL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RDNT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "REI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RJET",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RRGB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RSCF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RTAC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RXRX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RXT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "RYAM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SALM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SARO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SCLX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SCYX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SES",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SGMO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SILO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SJT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SKIN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SLDP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SMCI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SMTI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SMWB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SND",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SNEX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SONN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SOPH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPCB",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPIR",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SPNS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SSKN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SSTI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STKS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STLY",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STVN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "STXS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SUND",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SUPN",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SVII",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SWX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "SZZL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TACO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TBMC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TBTC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TDG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TECH",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TENX",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TIL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TMCI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TME",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TMS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TNON",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TOI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TOST",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TRML",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TRSO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TVAI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "TYGO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UCL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "UWMC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VANI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VERI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VG",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VINP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VMCAF",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VRCA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VRME",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VTOL",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VUZI",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "VYND",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WHLM",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WKSP",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WMK",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "WYTC",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XBIT",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XITO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XOMA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "XOS",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "YTFD",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZEO",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ZVSA",
+    "date": "2026-08-11",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AAME",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ABOS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACCR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ACM",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADAG",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ADN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AGEN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIFC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIOT",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AIV",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALMR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALTI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ALTO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMPH",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AMTM",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ANAB",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ANVS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "APGE",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "APPS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "APRE",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "APVO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARCT",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARIS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARKO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARKR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARMP",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARQ",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ARTNA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASRT",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASTI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ASTS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATAI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATOS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATRA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ATXS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AUTL",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AVBP",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AVR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AVXL",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "AXSM",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BATL",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BBGI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BCAX",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BDL",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BFNH",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BLTE",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BMBN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BRTX",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BSIN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BTAI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BWEN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "BWMN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CALC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CAVA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CBDY",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CCAQ",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CENN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CEVA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CFTN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CNTA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COMP",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "COYA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRCL",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRD.B",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRSP",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CRTD",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CSTAF",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CTOR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CTRM",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CTXR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CUB",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CUE",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CURR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CVKD",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CVV",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CWCO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "CXAI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DAC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DCGO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DCOY",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DCTH",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DDD",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DDI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DDS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DFDV",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DFNS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DNLI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DOLE",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DOMH",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DRIO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DRRX",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DSGN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DSP",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "DTSQ",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ECC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ECG",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ECOX",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EFOI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EIC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EMPD",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ENR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ENTA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ESE",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ESOA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EURK",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EVCM",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "EXOZ",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FCUV",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FDSB",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FENG",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FERG",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FF",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FFBW",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FINN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLD",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FLNC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FTHM",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "FWRD",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GBDC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GBIO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GBLX",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GBR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GCTS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GDC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GDST",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GPFT",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GPMT",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRAL",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GRNQ",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GWTI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "GYRE",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HGAS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HIMS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HIRU",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HKHC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HLIO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HNRG",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HOFV",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HPK",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HRB",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HRGN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HSPOF",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HUMA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HUYA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HVII",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "HYFM",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ICMB",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ICUI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IEHC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IHS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IIIV",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IMSR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IMXI",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INRE",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INTA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "INTZ",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IPEX",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "ISPO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "IZEA",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JACK",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JBS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JFBC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JKHY",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JOCM",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JRSH",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "JWSMF",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KBDC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KLC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KMPR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KRRO",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KRYS",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KVAC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KYNB",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "KYTX",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LAZR",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LCTC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LEGN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LFT",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LGMK",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LGN",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LINC",
+    "date": "2026-08-10",
+    "source": "Finnhub"
+  },
+  {
+    "ticker": "LPSN",
+    "date": "2026-08-10",
     "source": "Finnhub"
   }
 ]
