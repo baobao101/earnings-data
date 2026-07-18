@@ -15,20 +15,7 @@ CACHE_PATH = "backend/vol_cache.json"
 
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 TOKEN = os.environ.get("GH_TOKEN")
-# FMP_KEY = os.environ.get("FMP_KEY")
-# EODHD_KEY = os.environ.get("EODHD_KEY")
-# POLYGON_KEY = os.environ.get("POLYGON_KEY")
 
-# ------------------------------------------------------------
-# SAFE JSON WRAPPER
-# ------------------------------------------------------------
-
-# def safe_json(url):
-#     try:
-#         r = requests.get(url, timeout=10)
-#         return r.json()
-#     except Exception:
-#         return None
 def safe_json(url):
     try:
         r = requests.get(url, timeout=10)
@@ -163,29 +150,7 @@ def compute_volatility_score(entry):
 
     return max(iv_score, move_score, beta_score, atr_score)
 
-# ------------------------------------------------------------
-# FETCH FROM EODHD
-# ------------------------------------------------------------
-# def fetch_eodhd():
-#     url = f"https://eodhd.com/api/calendar/earnings?api_token={EODHD_KEY}"
-#     r = safe_json(url)
 
-#     if not isinstance(r, list):
-#         print("EODHD returned non-list JSON:", r)
-#         return []
-
-#     rows = []
-#     for item in r:
-#         if "code" in item and "date" in item:
-#             rows.append({
-#                 "ticker": item["code"],
-#                 "date": item["date"],
-#                 "source": "EODHD"
-#             })
-
-#     print("Total EODHD earnings rows:", len(rows))
-#     print("EODHD raw sample:", rows[:5])
-#     return rows
 
 # ------------------------------------------------------------
 # FETCH FROM YAHOO
@@ -266,57 +231,6 @@ def fetch_finnhub():
 
     return rows
 
-# ------------------------------------------------------------
-# FETCH POLYGON
-# ------------------------------------------------------------
-# def fetch_polygon():
-#     url = f"https://api.polygon.io/v2/reference/financials/earnings?apiKey={POLYGON_KEY}"
-#     r = safe_json(url)
-
-#     if not r or "results" not in r:
-#         print("Polygon returned invalid JSON:", r)
-#         return []
-
-#     rows = []
-#     for item in r["results"]:
-#         if "ticker" in item and "report_date" in item:
-#             rows.append({
-#                 "ticker": item["ticker"],
-#                 "date": item["report_date"],
-#                 "source": "Polygon"
-#             })
-
-#     print("Total Polygon rows:", len(rows))
-#     print("Polygon raw sample:", rows[:5])
-#     return rows
-
-# ------------------------------------------------------------
-# FETCH FROM FMP (v4 endpoint)
-# ------------------------------------------------------------
-
-# def fetch_fmp():
-#     url = f"https://financialmodelingprep.com/api/v3/earning_calendar?apikey={FMP_KEY}"
-#     r = safe_json(url)
-
-#     # If r is None or not a list, print it and return empty
-#     if not isinstance(r, list):
-#         print("FMP returned non-list JSON:", r)
-#         return []
-
-#     rows = []
-#     for item in r:
-#         if "symbol" in item and "date" in item:
-#             rows.append({
-#                 "ticker": item["symbol"],
-#                 "date": item["date"],
-#                 "source": "FMP"
-#             })
-
-#     print("Total FMP rows:", len(rows))
-#     print("FMP raw sample:", rows[:5])
-#     print("FMP URL:", url)
-
-#     return rows
 
 # ------------------------------------------------------------
 # MERGE + ADD VOLATILITY
