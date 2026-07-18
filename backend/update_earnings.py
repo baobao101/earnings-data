@@ -208,6 +208,8 @@ def fetch_fmp():
             })
 
     print("Total FMP rows:", len(rows))
+    print("FMP raw sample:", r[:5])
+
     return rows
 
 # ------------------------------------------------------------
