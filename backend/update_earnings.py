@@ -103,9 +103,10 @@ def fetch_volatility(ticker, cache):
     time.sleep(1)
 
     # Fallback logic: if today's value is None, use yesterday's
-    vol = vol if vol is not None else prev.get("move")
-    beta = beta if beta is not None else prev.get("beta")
     atr = atr if atr is not None else prev.get("atr")
+    move = move if move is not None else prev.get("move")
+    beta = beta if beta is not None else prev.get("beta")
+
 
     # Save updated values back into cache
     cache[ticker] = {
@@ -126,15 +127,19 @@ def fetch_volatility(ticker, cache):
 # ------------------------------------------------------------
 
 def compute_volatility_score(entry):
-    move = entry.get("move") or 0
-    beta = entry.get("beta") or 0
     atr = entry.get("atr") or 0
+    move = entry.get("move")
+    beta = entry.get("beta")
 
-    move_score = min(move * 100, 100)
-    beta_score = min((beta / 2.0) * 100, 100)
-    atr_score = min((atr / 5.0) * 100, 100)  # scale ATR directly
+    # ATR is always used
+    atr_score = min((atr / 5.0) * 100, 100)
 
-    return max(move_score, beta_score, atr_score)
+    # Optional signals
+    move_score = min(move * 100, 100) if move is not None else 0
+    beta_score = min((beta / 2.0) * 100, 100) if beta is not None else 0
+
+    return max(atr_score, move_score, beta_score)
+
 
 
 
