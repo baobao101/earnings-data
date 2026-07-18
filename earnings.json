@@ -10,6 +10,11 @@
     "source": "Finnhub"
   },
   {
+    "ticker": "NVDA",
+    "date": "2026-08-25",
+    "source": "Finnhub"
+  },
+  {
     "ticker": "AMZN",
     "date": "2026-07-30",
     "source": "Finnhub"
