@@ -194,8 +194,10 @@ def fetch_finnhub():
 def fetch_fmp():
     url = f"https://financialmodelingprep.com/api/v4/earning-calendar?apikey={FMP_KEY}"
     r = safe_json(url)
-    if not r:
-        print("FMP returned empty or invalid JSON.")
+
+    # If r is None or not a list, print it and return empty
+    if not isinstance(r, list):
+        print("FMP returned non-list JSON:", r)
         return []
 
     rows = []
@@ -208,7 +210,7 @@ def fetch_fmp():
             })
 
     print("Total FMP rows:", len(rows))
-    print("FMP raw sample:", r[:5])
+    print("FMP raw sample:", rows[:5])
 
     return rows
 
