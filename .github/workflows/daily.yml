@@ -40,7 +40,9 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add earnings.json
+          git add backend/vol_cache.json
           git commit -m "Daily earnings update" || echo "No changes to commit"
+
 
       - name: Push changes
         run: |
