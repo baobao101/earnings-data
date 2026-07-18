@@ -184,7 +184,7 @@ def fetch_alpha_vantage():
 
 def fetch_finnhub():
     start = (datetime.today() - timedelta(days=1)).strftime("%Y-%m-%d")
-    end = (datetime.today() + timedelta(days=14)).strftime("%Y-%m-%d")
+    end = (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
 
     url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
     r = requests.get(url)
@@ -232,7 +232,7 @@ def merge_sources():
     def is_near_term(date_str):
         try:
             d = datetime.strptime(date_str, "%Y-%m-%d")
-            return 0 <= (d - today).days <= 7
+            return 0 <= (d - today).days <= 10
         except:
             return False
 
