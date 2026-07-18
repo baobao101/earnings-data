@@ -5,6 +5,7 @@ import os
 from datetime import datetime, timedelta
 import csv
 from io import StringIO
+import time
 # ------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------
@@ -103,11 +104,14 @@ def fetch_volatility(ticker, cache):
         return cache[ticker]
 
     vol = fetch_volatility_alpha(ticker)
+    time.sleep(1)
     beta = fetch_beta_alpha(ticker)
+    time.sleep(1)
     atr = fetch_atr_ratio_alpha(ticker)
+    time.sleep(1)
 
     cache[ticker] = {
-        "iv": None,  # Finnhub IV removed
+        "iv": None,
         "move": vol,
         "beta": beta,
         "atr": atr,
