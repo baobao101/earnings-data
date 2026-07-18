@@ -1,6 +1,7 @@
-import base64
-import json
 import requests
+import json
+import base64
+import os
 
 # ------------------------------------------------------------
 # CONFIGURATION
@@ -9,38 +10,96 @@ import requests
 GITHUB_USER = "baobao101"
 REPO_NAME = "earnings-data"
 FILE_PATH = "earnings.json"
-TOKEN = os.environ.get("GH_TOKEN")   # must have repo write access
+TOKEN = os.environ.get("GH_TOKEN")   # GitHub Actions secret
 
 # ------------------------------------------------------------
-# SAMPLE DATA (replace with your real backend output)
+# FETCH FROM FINNHUB
 # ------------------------------------------------------------
 
-earnings = [
-    {"ticker": "AAPL", "date": "2026-07-18", "source": "Finnhub"},
-    {"ticker": "MSFT", "date": "2026-07-19", "source": "EarningsAPI"}
-]
+def fetch_finnhub():
+    FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
+    url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
+    r = requests.get(url)
+    data = r.json().get("earningsCalendar", [])
+    rows = []
+
+    for item in data:
+        if "symbol" in item and "date" in item:
+            rows.append({
+                "ticker": item["symbol"],
+                "date": item["date"],
+                "source": "Finnhub"
+            })
+
+    return rows
 
 # ------------------------------------------------------------
-# UPLOAD FUNCTION
+# FETCH FROM EARNINGSAPI
 # ------------------------------------------------------------
 
-def upload_json_to_github(data):
+def fetch_earnings_api():
+    url = "https://api.earningscalendar.net/?range=future"
+    r = requests.get(url)
+    data = r.json().get("results", [])
+    rows = []
+
+    for item in data:
+        if "ticker" in item and "date" in item:
+            rows.append({
+                "ticker": item["ticker"],
+                "date": item["date"],
+                "source": "EarningsAPI"
+            })
+
+    return rows
+
+# ------------------------------------------------------------
+# MERGE SOURCES
+# ------------------------------------------------------------
+
+def merge_sources():
+    a = fetch_finnhub()
+    b = fetch_earnings_api()
+
+    merged = {}
+    for row in a + b:
+        ticker = row["ticker"]
+        if ticker not in merged:
+            merged[ticker] = row
+        else:
+            # Keep the earliest future date
+            if row["date"] < merged[ticker]["date"]:
+                merged[ticker] = row
+
+    return list(merged.values())
+
+# ------------------------------------------------------------
+# SAVE JSON LOCALLY
+# ------------------------------------------------------------
+
+def save_json(data):
+    with open("earnings.json", "w") as f:
+        json.dump(data, f, indent=2)
+
+# ------------------------------------------------------------
+# UPLOAD TO GITHUB
+# ------------------------------------------------------------
+
+def upload_json_to_github():
     url = f"https://api.github.com/repos/{GITHUB_USER}/{REPO_NAME}/contents/{FILE_PATH}"
 
-    # Convert JSON → string → base64
-    json_str = json.dumps(data, indent=2)
-    encoded = base64.b64encode(json_str.encode()).decode()
+    # Read local file
+    with open("earnings.json", "r") as f:
+        content = f.read()
 
-    # Check if file exists (needed to get SHA)
+    encoded = base64.b64encode(content.encode()).decode()
+
+    # Check if file exists
     response = requests.get(url, headers={"Authorization": f"token {TOKEN}"})
-
-    if response.status_code == 200:
-        sha = response.json()["sha"]
-    else:
-        sha = None  # new file
+    sha = response.json().get("sha") if response.status_code == 200 else None
 
     payload = {
-        "message": "Update earnings.json",
+        "message": "Daily earnings update",
         "content": encoded,
         "sha": sha
     }
@@ -48,20 +107,13 @@ def upload_json_to_github(data):
     upload = requests.put(url, json=payload,
                           headers={"Authorization": f"token {TOKEN}"})
 
-    if upload.status_code in (200, 201):
-        print("Uploaded successfully!")
-    else:
-        print("Upload failed:", upload.text)
-
+    print("Upload status:", upload.status_code, upload.text)
 
 # ------------------------------------------------------------
 # RUN
 # ------------------------------------------------------------
 
-upload_json_to_github(earnings)
-
-import json
-
-def save_json(data):
-    with open("earnings.json", "w") as f:
-        json.dump(data, f, indent=2)
+if __name__ == "__main__":
+    data = merge_sources()
+    save_json(data)
+    upload_json_to_github()
