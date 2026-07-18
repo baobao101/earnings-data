@@ -325,7 +325,8 @@ def fetch_finnhub():
 def merge_sources():
     a = fetch_finnhub()
     #b = fetch_eodhd()
-    b = fetch_polygon()
+    #b = fetch_polygon()
+    b = fetch_yahoo()
 
     #b = fetch_fmp()
 
