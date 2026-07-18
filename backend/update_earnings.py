@@ -274,6 +274,7 @@ def merge_sources():
 
     merged_list.sort(key=lambda x: (x["date"], -x["volatility_score"]))
     print("Merged sample:", merged_list[:20])
+    print("Cache sample:", list(load_cache().items())[:5])
 
     return merged_list
 
