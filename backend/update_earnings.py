@@ -17,6 +17,7 @@ FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 TOKEN = os.environ.get("GH_TOKEN")
 FMP_KEY = os.environ.get("FMP_KEY")
 EODHD_KEY = os.environ.get("EODHD_KEY")
+POLYGON_KEY = os.environ.get("POLYGON_KEY")
 
 # ------------------------------------------------------------
 # SAFE JSON WRAPPER
@@ -222,6 +223,30 @@ def fetch_finnhub():
 
     return rows
 
+# ------------------------------------------------------------
+# FETCH POLYGON
+# ------------------------------------------------------------
+
+def fetch_polygon():
+    url = f"https://api.polygon.io/v3/reference/earnings?apiKey={POLYGON_KEY}"
+    r = safe_json(url)
+
+    if not r or "results" not in r:
+        print("Polygon returned invalid JSON:", r)
+        return []
+
+    rows = []
+    for item in r["results"]:
+        if "ticker" in item and "report_date" in item:
+            rows.append({
+                "ticker": item["ticker"],
+                "date": item["report_date"],
+                "source": "Polygon"
+            })
+
+    print("Total Polygon rows:", len(rows))
+    print("Polygon raw sample:", rows[:5])
+    return rows
 
 # ------------------------------------------------------------
 # FETCH FROM FMP (v4 endpoint)
