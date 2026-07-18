@@ -27,7 +27,8 @@ def fetch_finnhub():
     symbols = ["AAPL", "MSFT", "NVDA", "AMZN", "META"]
     rows = []
     for sym in symbols:
-        url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
+        url = f"https://finnhub.io/api/v1/calendar/earnings?symbol={sym}&from={start}&to={end}&token={FINNHUB_KEY}"
+
        # FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
        # url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
         r = requests.get(url)
