@@ -187,6 +187,49 @@ def compute_volatility_score(entry):
 #     print("EODHD raw sample:", rows[:5])
 #     return rows
 
+# ------------------------------------------------------------
+# FETCH FROM YAHOO
+# ------------------------------------------------------------
+
+def fetch_yahoo():
+    tickers = []  # we will fill this from Finnhub
+    yahoo_rows = []
+
+    # First, collect all tickers from Finnhub so we only query what we need
+    finnhub_data = fetch_finnhub()  # or use your existing variable
+    for item in finnhub_data:
+        tickers.append(item["ticker"])
+
+    # Query Yahoo for each ticker
+    for t in tickers:
+        url = f"https://query2.finance.yahoo.com/v1/finance/calendar?symbol={t}"
+        r = safe_json(url)
+
+        if not r or "calendarEvents" not in r:
+            continue
+
+        earnings = r["calendarEvents"].get("earnings", {})
+        dates = earnings.get("earningsDate", [])
+
+        if not dates:
+            continue
+
+        # Yahoo returns UNIX timestamps; convert them
+        raw_date = dates[0].get("raw")
+        if not raw_date:
+            continue
+
+        date_str = datetime.utcfromtimestamp(raw_date).strftime("%Y-%m-%d")
+
+        yahoo_rows.append({
+            "ticker": t,
+            "date": date_str,
+            "source": "Yahoo"
+        })
+
+    print("Total Yahoo rows:", len(yahoo_rows))
+    print("Yahoo raw sample:", yahoo_rows[:5])
+    return yahoo_rows
 
 # ------------------------------------------------------------
 # FETCH FROM FINNHUB
