@@ -166,7 +166,7 @@ def compute_volatility_score(entry):
 # FETCH FROM EODHD
 # ------------------------------------------------------------
 def fetch_eodhd():
-    url = f"https://eodhd.com/api/calendar?api_token={EODHD_KEY}"
+    url = f"https://eodhd.com/api/calendar/earnings?api_token={EODHD_KEY}"
     r = safe_json(url)
 
     if not isinstance(r, list):
@@ -175,7 +175,7 @@ def fetch_eodhd():
 
     rows = []
     for item in r:
-        if item.get("event") == "earnings" and "code" in item and "date" in item:
+        if "code" in item and "date" in item:
             rows.append({
                 "ticker": item["code"],
                 "date": item["date"],
@@ -185,6 +185,7 @@ def fetch_eodhd():
     print("Total EODHD earnings rows:", len(rows))
     print("EODHD raw sample:", rows[:5])
     return rows
+
 
 # ------------------------------------------------------------
 # FETCH FROM FINNHUB
