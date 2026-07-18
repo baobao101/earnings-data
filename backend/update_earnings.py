@@ -31,22 +31,22 @@ def fetch_finnhub():
        # FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
        # url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
     r = requests.get(url)
-    try:
+        try:
         resp = r.json()
     
         
-    except:
+        except:
         
-        continue
+           continue
    # return []
 
-    data = resp.get("earningsCalendar") or []
-    for item in data:
-        rows.append({
-            "ticker": item["symbol"],
-            "date": item["date"],
-            "source": "Finnhub"
-        })
+        data = resp.get("earningsCalendar") or []
+        for item in data:
+            rows.append({
+                "ticker": item["symbol"],
+                "date": item["date"],
+                "source": "Finnhub"
+            })
     print("Finnhub URL:", url)
     print("Finnhub response sample:", r.text[:200])
     print("Merged rows:", len(data))
