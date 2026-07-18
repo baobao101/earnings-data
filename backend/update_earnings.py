@@ -52,82 +52,62 @@ def needs_refresh(entry):
 # VOLATILITY SIGNAL FETCHERS
 # ------------------------------------------------------------
 
-def fetch_iv(ticker):
-    url = f"https://finnhub.io/api/v1/stock/option-chain?symbol={ticker}&token={FINNHUB_KEY}"
-    r = safe_json(url)
-    if not r:
-        return None
+# def fetch_iv(ticker):
+#     url = f"https://finnhub.io/api/v1/stock/option-chain?symbol={ticker}&token={FINNHUB_KEY}"
+#     r = safe_json(url)
+#     if not r:
+#         return None
+#     try:
+#         return r["data"][0]["implied_volatility"]
+#     except:
+#         return None
+
+def fetch_volatility_alpha(ticker):
+    url = f"https://www.alphavantage.co/query?function=VOLATILITY&symbol={ticker}&interval=daily&apikey={ALPHA_KEY}"
+    r = requests.get(url, timeout=10).json()
+
     try:
-        return r["data"][0]["implied_volatility"]
+        vol = float(r["Volatility"]["Volatility"])
+        return vol
     except:
         return None
 
-def fetch_last_earnings_move(ticker):
-    end = int(datetime.now().timestamp())
-    start = end - 86400 * 20
 
-    url = f"https://finnhub.io/api/v1/stock/candle?symbol={ticker}&resolution=D&from={start}&to={end}&token={FINNHUB_KEY}"
-    r = safe_json(url)
-    if not r or r.get("s") != "ok":
+def fetch_beta_alpha(ticker):
+    url = f"https://www.alphavantage.co/query?function=BETA&symbol={ticker}&apikey={ALPHA_KEY}"
+    r = requests.get(url, timeout=10).json()
+
+    try:
+        return float(r["Beta"]["beta"])
+    except:
         return None
 
-    closes = r.get("c", [])
-    if len(closes) < 3:
+def fetch_atr_ratio_alpha(ticker):
+    url = f"https://www.alphavantage.co/query?function=ATR&symbol={ticker}&interval=daily&time_period=14&apikey={ALPHA_KEY}"
+    r = requests.get(url, timeout=10).json()
+
+    try:
+        atr = float(r["Technical Analysis: ATR"][list(r["Technical Analysis: ATR"].keys())[0]]["ATR"])
+        return atr
+    except:
         return None
 
-    return abs(closes[-1] - closes[-2]) / closes[-2]
 
-def fetch_beta(ticker):
-    url = f"https://finnhub.io/api/v1/stock/metric?symbol={ticker}&metric=all&token={FINNHUB_KEY}"
-    r = safe_json(url)
-    if not r:
-        return None
-    return r.get("metric", {}).get("beta")
-
-def fetch_atr_ratio(ticker):
-    end = int(datetime.now().timestamp())
-    start = end - 86400 * 20
-
-    url = f"https://finnhub.io/api/v1/stock/candle?symbol={ticker}&resolution=D&from={start}&to={end}&token={FINNHUB_KEY}"
-    r = safe_json(url)
-    if not r or r.get("s") != "ok":
-        return None
-
-    highs = r.get("h", [])
-    lows = r.get("l", [])
-    closes = r.get("c", [])
-
-    if len(highs) < 15:
-        return None
-
-    trs = []
-    for i in range(1, len(highs)):
-        tr = max(
-            highs[i] - lows[i],
-            abs(highs[i] - closes[i-1]),
-            abs(lows[i] - closes[i-1])
-        )
-        trs.append(tr)
-
-    atr = sum(trs[-14:]) / 14
-    return atr / closes[-1]
 
 # ------------------------------------------------------------
 # FETCH VOLATILITY (WITH CACHE)
 # ------------------------------------------------------------
-
 def fetch_volatility(ticker, cache):
     if ticker in cache and not needs_refresh(cache[ticker]):
         return cache[ticker]
 
-    iv = fetch_iv(ticker)
-    move = fetch_last_earnings_move(ticker)
-    beta = fetch_beta(ticker)
-    atr = fetch_atr_ratio(ticker)
+    vol = fetch_volatility_alpha(ticker)
+    beta = fetch_beta_alpha(ticker)
+    atr = fetch_atr_ratio_alpha(ticker)
 
     cache[ticker] = {
-        "iv": iv,
-        "move": move,
+        "iv": None,  # Finnhub IV removed
+        "move": vol,
         "beta": beta,
         "atr": atr,
         "last_update": datetime.today().strftime("%Y-%m-%d")
@@ -135,22 +115,24 @@ def fetch_volatility(ticker, cache):
 
     return cache[ticker]
 
+
+
 # ------------------------------------------------------------
 # VOLATILITY SCORE (0–100)
 # ------------------------------------------------------------
 
 def compute_volatility_score(entry):
-    iv = entry.get("iv") or 0
     move = entry.get("move") or 0
     beta = entry.get("beta") or 0
     atr = entry.get("atr") or 0
 
-    iv_score = min(iv * 100, 100)
-    move_score = min((move / 0.10) * 100, 100)
+    move_score = min(move * 100, 100)
     beta_score = min((beta / 2.0) * 100, 100)
-    atr_score = min((atr / 0.05) * 100, 100)
+    atr_score = min((atr / 5.0) * 100, 100)  # scale ATR directly
 
-    return max(iv_score, move_score, beta_score, atr_score)
+    return max(move_score, beta_score, atr_score)
+
+
 
 
 
