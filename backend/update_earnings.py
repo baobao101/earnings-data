@@ -30,14 +30,11 @@ def fetch_finnhub():
         url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
        # FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
        # url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
-    r = requests.get(url)
+        r = requests.get(url)
         try:
-        resp = r.json()
-    
-        
+            resp = r.json()
         except:
-        
-           continue
+            continue
    # return []
 
         data = resp.get("earningsCalendar") or []
