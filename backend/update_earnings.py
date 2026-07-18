@@ -191,7 +191,7 @@ def fetch_finnhub():
 # FETCH FROM EARNINGSAPI
 # ------------------------------------------------------------
 def fetch_fmp():
-    url = f"https://financialmodelingprep.com/api/v3/earning_calendar?apikey={FMP_KEY}"
+    url = f"https://financialmodelingprep.com/api/v4/earning-calendar?apikey={FMP_KEY}"
     r = safe_json(url)
     if not r:
         print("FMP returned empty or invalid JSON.")
@@ -307,22 +307,5 @@ if __name__ == "__main__":
     data = merge_sources()
     save_json(data)
     upload_json_to_github()
-def fetch_fmp():
-    url = f"https://financialmodelingprep.com/api/v3/earning_calendar?apikey={FMP_KEY}"
-    r = safe_json(url)
-    if not r:
-        print("FMP returned empty or invalid JSON.")
-        return []
 
-    rows = []
-    for item in r:
-        if "symbol" in item and "date" in item:
-            rows.append({
-                "ticker": item["symbol"],
-                "date": item["date"],
-                "source": "FMP"
-            })
-
-    print("Total FMP rows:", len(rows))
-    return rows
 
