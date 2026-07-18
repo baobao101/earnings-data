@@ -3,7 +3,7 @@ name: Daily Earnings Update
 on:
   schedule:
     - cron: "0 9 * * *"   # runs every day at 09:00 UTC
-  workflow_dispatch:       # allows manual run
+  workflow_dispatch:
 
 jobs:
   update:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: |
