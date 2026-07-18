@@ -20,8 +20,8 @@ TOKEN = os.environ.get("GH_TOKEN")
 # ------------------------------------------------------------
 
 def fetch_finnhub():
-    start = (datetime.today() - timedelta(days=7)).strftime("%Y-%m-%d")
-    end = (datetime.today() + timedelta(days=14)).strftime("%Y-%m-%d")
+    start = (datetime.today() - timedelta(days=1)).strftime("%Y-%m-%d")
+    end = (datetime.today() + timedelta(days=39)).strftime("%Y-%m-%d")
 
     #FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
     symbols = ["AAPL", "MSFT", "NVDA", "AMZN", "META"]
