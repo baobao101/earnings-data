@@ -245,7 +245,9 @@ def fetch_fmp():
 
 def merge_sources():
     a = fetch_finnhub()
-    b = fetch_fmp()
+    b = fetch_eodhd()
+
+   # b = fetch_fmp()
 
     today = datetime.today()
 
