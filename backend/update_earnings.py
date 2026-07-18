@@ -50,7 +50,7 @@ def needs_refresh(entry):
     return (datetime.today() - last).days >= 3
 
 # ------------------------------------------------------------
-# VOLATILITY SIGNAL FETCHERS (SAFE)
+# VOLATILITY SIGNAL FETCHERS
 # ------------------------------------------------------------
 
 def fetch_iv(ticker):
@@ -188,8 +188,9 @@ def fetch_finnhub():
     return rows
 
 # ------------------------------------------------------------
-# FETCH FROM EARNINGSAPI
+# FETCH FROM FMP (v4 endpoint)
 # ------------------------------------------------------------
+
 def fetch_fmp():
     url = f"https://financialmodelingprep.com/api/v4/earning-calendar?apikey={FMP_KEY}"
     r = safe_json(url)
@@ -209,15 +210,37 @@ def fetch_fmp():
     print("Total FMP rows:", len(rows))
     return rows
 
-
-
 # ------------------------------------------------------------
 # MERGE + ADD VOLATILITY
 # ------------------------------------------------------------
 
 def merge_sources():
     a = fetch_finnhub()
-    b = fetch_fmp()   # ← NEW
+    b = fetch_fmp()
+
+    # Option 4: closest future date merge
+    def better_date(new_date_str, old_date_str):
+        try:
+            new = datetime.strptime(new_date_str, "%Y-%m-%d")
+            old = datetime.strptime(old_date_str, "%Y-%m-%d")
+        except:
+            return False
+
+        today = datetime.today()
+
+        new_future = new >= today
+        old_future = old >= today
+
+        if new_future and old_future:
+            return new < old
+
+        if new_future and not old_future:
+            return True
+
+        if old_future and not new_future:
+            return False
+
+        return new > old
 
     merged = {}
     for row in a + b:
@@ -225,15 +248,12 @@ def merge_sources():
         if ticker not in merged:
             merged[ticker] = row
         else:
-            if row["date"] < merged[ticker]["date"]:
+            if better_date(row["date"], merged[ticker]["date"]):
                 merged[ticker] = row
 
     merged_list = list(merged.values())
 
-    # Load cache
     cache = load_cache()
-
-    # Throttling rules
     today = datetime.today()
 
     def is_near_term(date_str):
@@ -247,7 +267,6 @@ def merge_sources():
     MAX_VOL_TICKERS = 120
     count = 0
 
-    # Apply throttling
     for row in merged_list:
         if count < MAX_VOL_TICKERS and is_near_term(row["date"]):
             vol_entry = fetch_volatility(row["ticker"], cache)
@@ -256,14 +275,11 @@ def merge_sources():
         else:
             row["volatility_score"] = 0
 
-    # Save updated cache
     save_cache(cache)
 
-    # Sort by date + volatility
     merged_list.sort(key=lambda x: (x["date"], -x["volatility_score"]))
 
     return merged_list
-
 
 # ------------------------------------------------------------
 # SAVE JSON LOCALLY
@@ -307,5 +323,3 @@ if __name__ == "__main__":
     data = merge_sources()
     save_json(data)
     upload_json_to_github()
-
-
