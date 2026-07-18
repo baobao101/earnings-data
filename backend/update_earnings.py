@@ -37,7 +37,7 @@ def fetch_finnhub():
         
     except Exception:
         print("Finnhub returned non‑JSON or empty response.")
-        continue
+    continue
         return []
 
     data = resp.get("earningsCalendar") or []
