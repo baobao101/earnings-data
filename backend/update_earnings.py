@@ -220,7 +220,8 @@ def fetch_earnings_api():
 
 def merge_sources():
     a = fetch_finnhub()
-    b = fetch_earnings_api()
+    b = fetch_fmp()
+
 
     merged = {}
     for row in a + b:
