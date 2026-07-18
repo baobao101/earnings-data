@@ -241,7 +241,9 @@ def merge_sources():
     def is_near_term(date_str):
         try:
             d = datetime.strptime(date_str, "%Y-%m-%d")
-            return (d - today).days <= 10
+            delta = (d - today).days
+            return 0 <= delta <= 10
+
         except:
             return False
 
