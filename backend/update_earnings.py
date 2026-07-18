@@ -103,9 +103,11 @@ def fetch_volatility(ticker, cache):
     time.sleep(1)
 
     # Fallback logic: if today's value is None, use yesterday's
-    atr = atr if atr is not None else prev.get("atr")
-    move = move if move is not None else prev.get("move")
+    vol = vol if vol is not None else prev.get("move")
     beta = beta if beta is not None else prev.get("beta")
+    atr = atr if atr is not None else prev.get("atr")
+
+
 
 
     # Save updated values back into cache
@@ -116,6 +118,7 @@ def fetch_volatility(ticker, cache):
         "atr": atr,
         "last_update": datetime.today().strftime("%Y-%m-%d")
     }
+
 
     return cache[ticker]
 
