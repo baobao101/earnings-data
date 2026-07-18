@@ -226,9 +226,8 @@ def fetch_finnhub():
 # ------------------------------------------------------------
 # FETCH POLYGON
 # ------------------------------------------------------------
-
 def fetch_polygon():
-    url = f"https://api.polygon.io/v3/reference/earnings?apiKey={POLYGON_KEY}"
+    url = f"https://api.polygon.io/v2/reference/financials/earnings?apiKey={POLYGON_KEY}"
     r = safe_json(url)
 
     if not r or "results" not in r:
