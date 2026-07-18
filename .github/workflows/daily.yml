@@ -2,12 +2,16 @@ name: Daily Earnings Update
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # runs every day at 09:00 UTC
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
+    env:
+      FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
     steps:
       - name: Checkout repo
@@ -36,7 +40,3 @@ jobs:
       - name: Push changes
         run: |
           git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
-        env:
-          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
