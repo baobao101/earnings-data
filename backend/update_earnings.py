@@ -44,10 +44,10 @@ def fetch_finnhub():
                 "date": item["date"],
                 "source": "Finnhub"
             })
-
+    print("Finnhub URL:", url)
+    print("Finnhub response sample:", r.text[:200])
     return rows
-print("Finnhub URL:", url)
-print("Finnhub response sample:", r.text[:200])
+
 
 
 # ------------------------------------------------------------
