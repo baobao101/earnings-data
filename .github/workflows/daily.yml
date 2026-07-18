@@ -39,4 +39,5 @@ jobs:
 
       - name: Push changes
         run: |
-          git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
+          git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main --force
+
