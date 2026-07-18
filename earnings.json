@@ -1,12 +1,1 @@
-[
-  {
-    "ticker": "AAPL",
-    "date": "2026-07-18",
-    "source": "Finnhub"
-  },
-  {
-    "ticker": "MSFT",
-    "date": "2026-07-19",
-    "source": "EarningsAPI"
-  }
-]
+[]
