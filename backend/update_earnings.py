@@ -20,38 +20,35 @@ TOKEN = os.environ.get("GH_TOKEN")
 # ------------------------------------------------------------
 
 def fetch_finnhub():
-    start = (datetime.today() - timedelta(days=1)).strftime("%Y-%m-%d")
-    end = (datetime.today() + timedelta(days=39)).strftime("%Y-%m-%d")
+    start = (datetime.today() - timedelta(days=7)).strftime("%Y-%m-%d")
+    end = (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
 
-    #FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
-    symbols = ["AAPL", "MSFT", "NVDA", "AMZN", "META"]
+    url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
+    r = requests.get(url)
 
+    try:
+        resp = r.json()
+    except:
+        print("Finnhub returned non‑JSON")
+        return []
+
+    data = resp.get("earningsCalendar") or []
     rows = []
 
-    for sym in symbols:
-        url = f"https://finnhub.io/api/v1/calendar/earnings?symbol={sym}&from={start}&to={end}&token={FINNHUB_KEY}"
-        r = requests.get(url)
-
-        try:
-            resp = r.json()
-        except:
-            print(f"Finnhub returned non‑JSON for {sym}")
-            continue
-
-        data = resp.get("earningsCalendar") or []
-
-        for item in data:
+    for item in data:
+        if "symbol" in item and "date" in item:
             rows.append({
                 "ticker": item["symbol"],
                 "date": item["date"],
                 "source": "Finnhub"
             })
 
-        print(f"Finnhub URL ({sym}):", url)
-        print("Response sample:", r.text[:200])
-
+    print("Finnhub URL:", url)
+    print("Finnhub response sample:", r.text[:200])
     print("Total Finnhub rows:", len(rows))
+
     return rows
+
 
 
 
