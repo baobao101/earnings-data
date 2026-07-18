@@ -17,6 +17,17 @@ FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 TOKEN = os.environ.get("GH_TOKEN")
 
 # ------------------------------------------------------------
+# SAFE JSON WRAPPER
+# ------------------------------------------------------------
+
+def safe_json(url):
+    try:
+        r = requests.get(url, timeout=10)
+        return r.json()
+    except Exception:
+        return None
+
+# ------------------------------------------------------------
 # LOAD / SAVE VOLATILITY CACHE
 # ------------------------------------------------------------
 
@@ -35,15 +46,17 @@ def needs_refresh(entry):
     if "last_update" not in entry:
         return True
     last = datetime.strptime(entry["last_update"], "%Y-%m-%d")
-    return (datetime.today() - last).days >= 3  # refresh every 3 days
+    return (datetime.today() - last).days >= 3
 
 # ------------------------------------------------------------
-# VOLATILITY SIGNAL FETCHERS
+# VOLATILITY SIGNAL FETCHERS (SAFE)
 # ------------------------------------------------------------
 
 def fetch_iv(ticker):
     url = f"https://finnhub.io/api/v1/stock/option-chain?symbol={ticker}&token={FINNHUB_KEY}"
-    r = requests.get(url).json()
+    r = safe_json(url)
+    if not r:
+        return None
     try:
         return r["data"][0]["implied_volatility"]
     except:
@@ -52,31 +65,40 @@ def fetch_iv(ticker):
 def fetch_last_earnings_move(ticker):
     end = int(datetime.now().timestamp())
     start = end - 86400 * 20
+
     url = f"https://finnhub.io/api/v1/stock/candle?symbol={ticker}&resolution=D&from={start}&to={end}&token={FINNHUB_KEY}"
-    r = requests.get(url).json()
-    if r.get("s") != "ok":
+    r = safe_json(url)
+    if not r or r.get("s") != "ok":
         return None
-    closes = r["c"]
+
+    closes = r.get("c", [])
     if len(closes) < 3:
         return None
+
     return abs(closes[-1] - closes[-2]) / closes[-2]
 
 def fetch_beta(ticker):
     url = f"https://finnhub.io/api/v1/stock/metric?symbol={ticker}&metric=all&token={FINNHUB_KEY}"
-    r = requests.get(url).json()
+    r = safe_json(url)
+    if not r:
+        return None
     return r.get("metric", {}).get("beta")
 
 def fetch_atr_ratio(ticker):
     end = int(datetime.now().timestamp())
     start = end - 86400 * 20
+
     url = f"https://finnhub.io/api/v1/stock/candle?symbol={ticker}&resolution=D&from={start}&to={end}&token={FINNHUB_KEY}"
-    r = requests.get(url).json()
-    if r.get("s") != "ok":
+    r = safe_json(url)
+    if not r or r.get("s") != "ok":
         return None
 
-    highs = r["h"]
-    lows = r["l"]
-    closes = r["c"]
+    highs = r.get("h", [])
+    lows = r.get("l", [])
+    closes = r.get("c", [])
+
+    if len(highs) < 15:
+        return None
 
     trs = []
     for i in range(1, len(highs)):
@@ -210,18 +232,14 @@ def merge_sources():
 
     merged_list = list(merged.values())
 
-    # Load cache
     cache = load_cache()
 
-    # Add volatility score
     for row in merged_list:
         vol_entry = fetch_volatility(row["ticker"], cache)
         row["volatility_score"] = compute_volatility_score(vol_entry)
 
-    # Save updated cache
     save_cache(cache)
 
-    # Sort by date + volatility
     merged_list.sort(key=lambda x: (x["date"], -x["volatility_score"]))
 
     return merged_list
