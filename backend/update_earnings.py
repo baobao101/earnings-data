@@ -12,6 +12,7 @@ GITHUB_USER = "baobao101"
 REPO_NAME = "earnings-data"
 FILE_PATH = "earnings.json"
 CACHE_PATH = "backend/vol_cache.json"
+ALPHA_KEY = os.environ.get("ALPHA_KEY")
 
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 TOKEN = os.environ.get("GH_TOKEN")
