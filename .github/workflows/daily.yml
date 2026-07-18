@@ -51,4 +51,6 @@ jobs:
         run: |
           git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
 
+      - name: Ensure backend folder exists
+        run: mkdir -p backend
 
