@@ -192,7 +192,7 @@ def fetch_finnhub():
 # ------------------------------------------------------------
 
 def fetch_fmp():
-    url = f"https://financialmodelingprep.com/api/v4/earning-calendar?apikey={FMP_KEY}"
+    url = f"https://financialmodelingprep.com/api/v3/earning_calendar?apikey={FMP_KEY}"
     r = safe_json(url)
 
     # If r is None or not a list, print it and return empty
