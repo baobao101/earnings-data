@@ -20,8 +20,8 @@ TOKEN = os.environ.get("GH_TOKEN")
 # ------------------------------------------------------------
 
 def fetch_finnhub():
-    start = (datetime.today() - timedelta(days=7)).strftime("%Y-%m-%d")
-    end = (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
+    start = (datetime.today() - timedelta(days=3)).strftime("%Y-%m-%d")
+    end = (datetime.today() + timedelta(days=39)).strftime("%Y-%m-%d")
 
     url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
     r = requests.get(url)
