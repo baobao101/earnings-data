@@ -3,7 +3,8 @@ import json
 import base64
 import os
 from datetime import datetime, timedelta
-
+import csv
+from io import StringIO
 # ------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------
@@ -158,18 +159,32 @@ def compute_volatility_score(entry):
 # ------------------------------------------------------------
 def fetch_alpha_vantage():
     url = f"https://www.alphavantage.co/query?function=EARNINGS_CALENDAR&apikey={ALPHA_KEY}"
-    r = safe_json(url)
+    r = requests.get(url, timeout=10)
 
-    if not r or "earnings_calendar" not in r:
-        print("Alpha Vantage returned invalid JSON:", r)
+    print("AlphaVantage status:", r.status_code)
+    print("AlphaVantage text sample:", r.text[:300])
+
+    if r.status_code != 200:
+        print("AlphaVantage returned non-200:", r.text[:200])
+        return []
+
+    # Parse CSV
+    try:
+        f = StringIO(r.text)
+        reader = csv.DictReader(f)
+    except Exception as e:
+        print("CSV parse error:", e)
         return []
 
     rows = []
-    for item in r["earnings_calendar"]:
-        if "symbol" in item and "reportDate" in item:
+    for item in reader:
+        symbol = item.get("symbol")
+        date = item.get("reportDate")
+
+        if symbol and date:
             rows.append({
-                "ticker": item["symbol"],
-                "date": item["reportDate"],
+                "ticker": symbol,
+                "date": date,
                 "source": "AlphaVantage"
             })
 
