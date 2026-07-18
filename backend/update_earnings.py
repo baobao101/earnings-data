@@ -232,14 +232,35 @@ def merge_sources():
 
     merged_list = list(merged.values())
 
+    # Load cache
     cache = load_cache()
 
-    for row in merged_list:
-        vol_entry = fetch_volatility(row["ticker"], cache)
-        row["volatility_score"] = compute_volatility_score(vol_entry)
+    # Throttling rules
+    today = datetime.today()
 
+    def is_near_term(date_str):
+        try:
+            d = datetime.strptime(date_str, "%Y-%m-%d")
+            return (d - today).days <= 10
+        except:
+            return False
+
+    MAX_VOL_TICKERS = 120
+    count = 0
+
+    # Apply throttling
+    for row in merged_list:
+        if count < MAX_VOL_TICKERS and is_near_term(row["date"]):
+            vol_entry = fetch_volatility(row["ticker"], cache)
+            row["volatility_score"] = compute_volatility_score(vol_entry)
+            count += 1
+        else:
+            row["volatility_score"] = 0
+
+    # Save updated cache
     save_cache(cache)
 
+    # Sort by date + volatility
     merged_list.sort(key=lambda x: (x["date"], -x["volatility_score"]))
 
     return merged_list
