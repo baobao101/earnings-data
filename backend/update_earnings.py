@@ -17,38 +17,37 @@ TOKEN = os.environ.get("GH_TOKEN")   # GitHub Actions secret
 # ------------------------------------------------------------
 
 def fetch_finnhub():
-    # Two months ago (≈60 days)
     start = (datetime.today() - timedelta(days=7)).strftime("%Y-%m-%d")
     end = (datetime.today() + timedelta(days=14)).strftime("%Y-%m-%d")
 
-    #end = (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
-
     FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
     symbols = ["AAPL", "MSFT", "NVDA", "AMZN", "META"]
+
     rows = []
+
     for sym in symbols:
         url = f"https://finnhub.io/api/v1/calendar/earnings?symbol={sym}&from={start}&to={end}&token={FINNHUB_KEY}"
-
-       # FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
-       # url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
         r = requests.get(url)
+
         try:
             resp = r.json()
         except:
+            print(f"Finnhub returned non‑JSON for {sym}")
             continue
-   # return []
 
         data = resp.get("earningsCalendar") or []
+
         for item in data:
             rows.append({
                 "ticker": item["symbol"],
                 "date": item["date"],
                 "source": "Finnhub"
             })
-    print("Finnhub URL:", url)
-    print("Finnhub response sample:", r.text[:200])
-    print("Merged rows:", len(data))
 
+        print(f"Finnhub URL ({sym}):", url)
+        print("Response sample:", r.text[:200])
+
+    print("Total Finnhub rows:", len(rows))
     return rows
 
 
