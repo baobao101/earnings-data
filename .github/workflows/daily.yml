@@ -1,0 +1,40 @@
+name: Daily Earnings Update
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # runs every day at 09:00 UTC
+  workflow_dispatch:       # allows manual run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run backend script
+        run: |
+          python backend/update_earnings.py
+
+      - name: Commit updated JSON
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add earnings.json
+          git commit -m "Daily earnings update" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
