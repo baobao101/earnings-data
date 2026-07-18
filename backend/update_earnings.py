@@ -22,11 +22,21 @@ EODHD_KEY = os.environ.get("EODHD_KEY")
 # SAFE JSON WRAPPER
 # ------------------------------------------------------------
 
+# def safe_json(url):
+#     try:
+#         r = requests.get(url, timeout=10)
+#         return r.json()
+#     except Exception:
+#         return None
 def safe_json(url):
     try:
         r = requests.get(url, timeout=10)
+        print("EODHD URL:", url)
+        print("EODHD status:", r.status_code)
+        print("EODHD text sample:", r.text[:300])
         return r.json()
-    except Exception:
+    except Exception as e:
+        print("safe_json error:", e)
         return None
 
 # ------------------------------------------------------------
