@@ -18,12 +18,12 @@ TOKEN = os.environ.get("GH_TOKEN")   # GitHub Actions secret
 
 def fetch_finnhub():
     # Two months ago (≈60 days)
-start = (datetime.today() - timedelta(days=60)).strftime("%Y-%m-%d")
-end = datetime.today().strftime("%Y-%m-%d")
+    start = (datetime.today() - timedelta(days=60)).strftime("%Y-%m-%d")
+    end = datetime.today().strftime("%Y-%m-%d")
 #end = (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
 
-FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
-url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
+    FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
+    url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
    # FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
    # url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
     r = requests.get(url)
