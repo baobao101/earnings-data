@@ -40,7 +40,14 @@ def fetch_finnhub():
 def fetch_earnings_api():
     url = "https://api.earningscalendar.net/?range=future"
     r = requests.get(url)
-    data = r.json().get("results", [])
+
+    try:
+        resp = r.json()
+    except Exception:
+        print("EarningsAPI returned non‑JSON or empty response.")
+        return []   # fail gracefully
+
+    data = resp.get("results") or []
     rows = []
 
     for item in data:
@@ -52,6 +59,7 @@ def fetch_earnings_api():
             })
 
     return rows
+
 
 # ------------------------------------------------------------
 # MERGE SOURCES
