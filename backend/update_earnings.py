@@ -3,6 +3,7 @@ import json
 import base64
 import os
 from datetime import datetime, timedelta
+
 # ------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------
@@ -10,10 +11,124 @@ from datetime import datetime, timedelta
 GITHUB_USER = "baobao101"
 REPO_NAME = "earnings-data"
 FILE_PATH = "earnings.json"
+CACHE_PATH = "backend/vol_cache.json"
+
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 TOKEN = os.environ.get("GH_TOKEN")
 
-   # GitHub Actions secret
+# ------------------------------------------------------------
+# LOAD / SAVE VOLATILITY CACHE
+# ------------------------------------------------------------
+
+def load_cache():
+    try:
+        with open(CACHE_PATH, "r") as f:
+            return json.load(f)
+    except:
+        return {}
+
+def save_cache(cache):
+    with open(CACHE_PATH, "w") as f:
+        json.dump(cache, f, indent=2)
+
+def needs_refresh(entry):
+    if "last_update" not in entry:
+        return True
+    last = datetime.strptime(entry["last_update"], "%Y-%m-%d")
+    return (datetime.today() - last).days >= 3  # refresh every 3 days
+
+# ------------------------------------------------------------
+# VOLATILITY SIGNAL FETCHERS
+# ------------------------------------------------------------
+
+def fetch_iv(ticker):
+    url = f"https://finnhub.io/api/v1/stock/option-chain?symbol={ticker}&token={FINNHUB_KEY}"
+    r = requests.get(url).json()
+    try:
+        return r["data"][0]["implied_volatility"]
+    except:
+        return None
+
+def fetch_last_earnings_move(ticker):
+    end = int(datetime.now().timestamp())
+    start = end - 86400 * 20
+    url = f"https://finnhub.io/api/v1/stock/candle?symbol={ticker}&resolution=D&from={start}&to={end}&token={FINNHUB_KEY}"
+    r = requests.get(url).json()
+    if r.get("s") != "ok":
+        return None
+    closes = r["c"]
+    if len(closes) < 3:
+        return None
+    return abs(closes[-1] - closes[-2]) / closes[-2]
+
+def fetch_beta(ticker):
+    url = f"https://finnhub.io/api/v1/stock/metric?symbol={ticker}&metric=all&token={FINNHUB_KEY}"
+    r = requests.get(url).json()
+    return r.get("metric", {}).get("beta")
+
+def fetch_atr_ratio(ticker):
+    end = int(datetime.now().timestamp())
+    start = end - 86400 * 20
+    url = f"https://finnhub.io/api/v1/stock/candle?symbol={ticker}&resolution=D&from={start}&to={end}&token={FINNHUB_KEY}"
+    r = requests.get(url).json()
+    if r.get("s") != "ok":
+        return None
+
+    highs = r["h"]
+    lows = r["l"]
+    closes = r["c"]
+
+    trs = []
+    for i in range(1, len(highs)):
+        tr = max(
+            highs[i] - lows[i],
+            abs(highs[i] - closes[i-1]),
+            abs(lows[i] - closes[i-1])
+        )
+        trs.append(tr)
+
+    atr = sum(trs[-14:]) / 14
+    return atr / closes[-1]
+
+# ------------------------------------------------------------
+# FETCH VOLATILITY (WITH CACHE)
+# ------------------------------------------------------------
+
+def fetch_volatility(ticker, cache):
+    if ticker in cache and not needs_refresh(cache[ticker]):
+        return cache[ticker]
+
+    iv = fetch_iv(ticker)
+    move = fetch_last_earnings_move(ticker)
+    beta = fetch_beta(ticker)
+    atr = fetch_atr_ratio(ticker)
+
+    cache[ticker] = {
+        "iv": iv,
+        "move": move,
+        "beta": beta,
+        "atr": atr,
+        "last_update": datetime.today().strftime("%Y-%m-%d")
+    }
+
+    return cache[ticker]
+
+# ------------------------------------------------------------
+# VOLATILITY SCORE (0–100)
+# ------------------------------------------------------------
+
+def compute_volatility_score(entry):
+    iv = entry.get("iv") or 0
+    move = entry.get("move") or 0
+    beta = entry.get("beta") or 0
+    atr = entry.get("atr") or 0
+
+    iv_score = min(iv * 100, 100)
+    move_score = min((move / 0.10) * 100, 100)
+    beta_score = min((beta / 2.0) * 100, 100)
+    atr_score = min((atr / 0.05) * 100, 100)
+
+    return max(iv_score, move_score, beta_score, atr_score)
 
 # ------------------------------------------------------------
 # FETCH FROM FINNHUB
@@ -49,9 +164,6 @@ def fetch_finnhub():
 
     return rows
 
-
-
-
 # ------------------------------------------------------------
 # FETCH FROM EARNINGSAPI
 # ------------------------------------------------------------
@@ -64,7 +176,7 @@ def fetch_earnings_api():
         resp = r.json()
     except Exception:
         print("EarningsAPI returned non‑JSON or empty response.")
-        return []   # fail gracefully
+        return []
 
     data = resp.get("results") or []
     rows = []
@@ -79,9 +191,8 @@ def fetch_earnings_api():
 
     return rows
 
-
 # ------------------------------------------------------------
-# MERGE SOURCES
+# MERGE + ADD VOLATILITY
 # ------------------------------------------------------------
 
 def merge_sources():
@@ -94,11 +205,26 @@ def merge_sources():
         if ticker not in merged:
             merged[ticker] = row
         else:
-            # Keep the earliest future date
             if row["date"] < merged[ticker]["date"]:
                 merged[ticker] = row
 
-    return list(merged.values())
+    merged_list = list(merged.values())
+
+    # Load cache
+    cache = load_cache()
+
+    # Add volatility score
+    for row in merged_list:
+        vol_entry = fetch_volatility(row["ticker"], cache)
+        row["volatility_score"] = compute_volatility_score(vol_entry)
+
+    # Save updated cache
+    save_cache(cache)
+
+    # Sort by date + volatility
+    merged_list.sort(key=lambda x: (x["date"], -x["volatility_score"]))
+
+    return merged_list
 
 # ------------------------------------------------------------
 # SAVE JSON LOCALLY
@@ -115,13 +241,11 @@ def save_json(data):
 def upload_json_to_github():
     url = f"https://api.github.com/repos/{GITHUB_USER}/{REPO_NAME}/contents/{FILE_PATH}"
 
-    # Read local file
     with open("earnings.json", "r") as f:
         content = f.read()
 
     encoded = base64.b64encode(content.encode()).decode()
 
-    # Check if file exists
     response = requests.get(url, headers={"Authorization": f"token {TOKEN}"})
     sha = response.json().get("sha") if response.status_code == 200 else None
 
