@@ -20,6 +20,7 @@ def fetch_finnhub():
     # Two months ago (≈60 days)
 start = (datetime.today() - timedelta(days=60)).strftime("%Y-%m-%d")
 end = datetime.today().strftime("%Y-%m-%d")
+#end = (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
 
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
