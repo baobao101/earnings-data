@@ -191,28 +191,7 @@ def fetch_finnhub():
 # FETCH FROM EARNINGSAPI
 # ------------------------------------------------------------
 
-def fetch_earnings_api():
-    url = "https://api.earningscalendar.net/?range=future"
-    r = requests.get(url)
 
-    try:
-        resp = r.json()
-    except Exception:
-        print("EarningsAPI returned non‑JSON or empty response.")
-        return []
-
-    data = resp.get("results") or []
-    rows = []
-
-    for item in data:
-        if "ticker" in item and "date" in item:
-            rows.append({
-                "ticker": item["ticker"],
-                "date": item["date"],
-                "source": "EarningsAPI"
-            })
-
-    return rows
 
 # ------------------------------------------------------------
 # MERGE + ADD VOLATILITY
