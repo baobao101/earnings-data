@@ -182,11 +182,10 @@ def fetch_finnhub():
     print("Finnhub URL:", url)
     print("Finnhub response sample:", r.text[:200])
     print("Total Finnhub rows:", len(rows))
-    print("Finnhub first 5:", rows[:5])
-
-
+    print("Finnhub first 5:", rows[:5])   # FIXED
 
     return rows
+
 
 # ------------------------------------------------------------
 # FETCH FROM FMP (v4 endpoint)
