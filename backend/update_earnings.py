@@ -49,6 +49,7 @@ def fetch_finnhub():
         })
     print("Finnhub URL:", url)
     print("Finnhub response sample:", r.text[:200])
+    print("Merged rows:", len(data))
 
     return rows
 
