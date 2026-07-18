@@ -20,7 +20,14 @@ def fetch_finnhub():
     FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
     url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
     r = requests.get(url)
-    data = r.json().get("earningsCalendar", [])
+
+    try:
+        resp = r.json()
+    except Exception:
+        print("Finnhub returned non‑JSON or empty response.")
+        return []
+
+    data = resp.get("earningsCalendar") or []
     rows = []
 
     for item in data:
@@ -32,6 +39,7 @@ def fetch_finnhub():
             })
 
     return rows
+
 
 # ------------------------------------------------------------
 # FETCH FROM EARNINGSAPI
