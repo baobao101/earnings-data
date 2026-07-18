@@ -2,7 +2,7 @@ import requests
 import json
 import base64
 import os
-
+from datetime import datetime, timedelta
 # ------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------
@@ -17,8 +17,14 @@ TOKEN = os.environ.get("GH_TOKEN")   # GitHub Actions secret
 # ------------------------------------------------------------
 
 def fetch_finnhub():
-    FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
-    url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
+    # Two months ago (≈60 days)
+start = (datetime.today() - timedelta(days=60)).strftime("%Y-%m-%d")
+end = datetime.today().strftime("%Y-%m-%d")
+
+FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
+url = f"https://finnhub.io/api/v1/calendar/earnings?from={start}&to={end}&token={FINNHUB_KEY}"
+   # FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
+   # url = f"https://finnhub.io/api/v1/calendar/earnings?from=2026-07-17&to=2026-12-31&token={FINNHUB_KEY}"
     r = requests.get(url)
 
     try:
