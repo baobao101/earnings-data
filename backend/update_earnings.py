@@ -215,29 +215,29 @@ def fetch_finnhub():
 # FETCH FROM FMP (v4 endpoint)
 # ------------------------------------------------------------
 
-def fetch_fmp():
-    url = f"https://financialmodelingprep.com/api/v3/earning_calendar?apikey={FMP_KEY}"
-    r = safe_json(url)
+# def fetch_fmp():
+#     url = f"https://financialmodelingprep.com/api/v3/earning_calendar?apikey={FMP_KEY}"
+#     r = safe_json(url)
 
-    # If r is None or not a list, print it and return empty
-    if not isinstance(r, list):
-        print("FMP returned non-list JSON:", r)
-        return []
+#     # If r is None or not a list, print it and return empty
+#     if not isinstance(r, list):
+#         print("FMP returned non-list JSON:", r)
+#         return []
 
-    rows = []
-    for item in r:
-        if "symbol" in item and "date" in item:
-            rows.append({
-                "ticker": item["symbol"],
-                "date": item["date"],
-                "source": "FMP"
-            })
+#     rows = []
+#     for item in r:
+#         if "symbol" in item and "date" in item:
+#             rows.append({
+#                 "ticker": item["symbol"],
+#                 "date": item["date"],
+#                 "source": "FMP"
+#             })
 
-    print("Total FMP rows:", len(rows))
-    print("FMP raw sample:", rows[:5])
-    print("FMP URL:", url)
+#     print("Total FMP rows:", len(rows))
+#     print("FMP raw sample:", rows[:5])
+#     print("FMP URL:", url)
 
-    return rows
+#     return rows
 
 # ------------------------------------------------------------
 # MERGE + ADD VOLATILITY
