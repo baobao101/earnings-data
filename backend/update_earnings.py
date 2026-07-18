@@ -270,6 +270,7 @@ def merge_sources():
     save_cache(cache)
 
     merged_list.sort(key=lambda x: (x["date"], -x["volatility_score"]))
+    print("Merged sample:", merged_list[:20])
 
     return merged_list
 
