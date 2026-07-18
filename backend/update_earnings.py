@@ -21,13 +21,14 @@ TOKEN = os.environ.get("GH_TOKEN")
 def safe_json(url):
     try:
         r = requests.get(url, timeout=10)
-        print("EODHD URL:", url)
-        print("EODHD status:", r.status_code)
-        print("EODHD text sample:", r.text[:300])
+        print("JSON URL:", url)
+        print("JSON status:", r.status_code)
+        print("JSON text sample:", r.text[:300])
         return r.json()
     except Exception as e:
         print("safe_json error:", e)
         return None
+
 
 # ------------------------------------------------------------
 # LOAD / SAVE VOLATILITY CACHE
@@ -265,13 +266,13 @@ def merge_sources():
     count = 0
 
     for row in merged_list:
-        if is_near_term(row["date"]):
+        if is_near_term(row["date"]) and count < MAX_VOL_TICKERS:
             vol_entry = fetch_volatility(row["ticker"], cache)
-
             row["volatility_score"] = compute_volatility_score(vol_entry)
             count += 1
         else:
             row["volatility_score"] = 0
+
 
     save_cache(cache)
 
