@@ -166,26 +166,26 @@ def compute_volatility_score(entry):
 # ------------------------------------------------------------
 # FETCH FROM EODHD
 # ------------------------------------------------------------
-def fetch_eodhd():
-    url = f"https://eodhd.com/api/calendar/earnings?api_token={EODHD_KEY}"
-    r = safe_json(url)
+# def fetch_eodhd():
+#     url = f"https://eodhd.com/api/calendar/earnings?api_token={EODHD_KEY}"
+#     r = safe_json(url)
 
-    if not isinstance(r, list):
-        print("EODHD returned non-list JSON:", r)
-        return []
+#     if not isinstance(r, list):
+#         print("EODHD returned non-list JSON:", r)
+#         return []
 
-    rows = []
-    for item in r:
-        if "code" in item and "date" in item:
-            rows.append({
-                "ticker": item["code"],
-                "date": item["date"],
-                "source": "EODHD"
-            })
+#     rows = []
+#     for item in r:
+#         if "code" in item and "date" in item:
+#             rows.append({
+#                 "ticker": item["code"],
+#                 "date": item["date"],
+#                 "source": "EODHD"
+#             })
 
-    print("Total EODHD earnings rows:", len(rows))
-    print("EODHD raw sample:", rows[:5])
-    return rows
+#     print("Total EODHD earnings rows:", len(rows))
+#     print("EODHD raw sample:", rows[:5])
+#     return rows
 
 
 # ------------------------------------------------------------
@@ -282,9 +282,10 @@ def fetch_polygon():
 
 def merge_sources():
     a = fetch_finnhub()
-    b = fetch_eodhd()
+    #b = fetch_eodhd()
+    b = fetch_polygon()
 
-   # b = fetch_fmp()
+    #b = fetch_fmp()
 
     today = datetime.today()
 
