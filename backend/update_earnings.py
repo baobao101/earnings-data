@@ -10,7 +10,10 @@ from datetime import datetime, timedelta
 GITHUB_USER = "baobao101"
 REPO_NAME = "earnings-data"
 FILE_PATH = "earnings.json"
-TOKEN = os.environ.get("GH_TOKEN")   # GitHub Actions secret
+env:
+  FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+   # GitHub Actions secret
 
 # ------------------------------------------------------------
 # FETCH FROM FINNHUB
@@ -20,7 +23,7 @@ def fetch_finnhub():
     start = (datetime.today() - timedelta(days=7)).strftime("%Y-%m-%d")
     end = (datetime.today() + timedelta(days=14)).strftime("%Y-%m-%d")
 
-    FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
+    #FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
     symbols = ["AAPL", "MSFT", "NVDA", "AMZN", "META"]
 
     rows = []
