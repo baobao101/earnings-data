@@ -12,6 +12,7 @@ jobs:
     env:
       FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      FMP_KEY: ${{ secrets.FMP_KEY }}
 
     steps:
       - name: Checkout repo
