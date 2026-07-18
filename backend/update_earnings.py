@@ -211,6 +211,7 @@ def fetch_fmp():
 
     print("Total FMP rows:", len(rows))
     print("FMP raw sample:", rows[:5])
+    print("FMP URL:", url)
 
     return rows
 
