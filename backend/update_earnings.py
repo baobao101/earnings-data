@@ -60,3 +60,8 @@ def upload_json_to_github(data):
 
 upload_json_to_github(earnings)
 
+import json
+
+def save_json(data):
+    with open("earnings.json", "w") as f:
+        json.dump(data, f, indent=2)
