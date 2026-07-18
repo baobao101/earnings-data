@@ -15,6 +15,7 @@ CACHE_PATH = "backend/vol_cache.json"
 
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 TOKEN = os.environ.get("GH_TOKEN")
+FMP_KEY = os.environ.get("FMP_KEY")
 
 # ------------------------------------------------------------
 # SAFE JSON WRAPPER
