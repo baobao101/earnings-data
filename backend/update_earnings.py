@@ -9,7 +9,7 @@ import requests
 GITHUB_USER = "baobao101"
 REPO_NAME = "earnings-data"
 FILE_PATH = "earnings.json"
-TOKEN = "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"   # must have repo write access
+TOKEN = os.environ.get("GH_TOKEN")   # must have repo write access
 
 # ------------------------------------------------------------
 # SAMPLE DATA (replace with your real backend output)
