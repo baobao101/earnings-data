@@ -42,6 +42,17 @@ jobs:
           git add earnings.json
           git add backend/vol_cache.json
           git commit -m "Daily earnings update" || echo "No changes to commit"
+      
+      - name: Pull latest changes
+        run: |
+          git pull --rebase https://$GH_TOKEN@github.com/${{ github.repository }} main
+      
+      - name: Push changes
+        run: |
+          git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
+
+          git add backend/vol_cache.json
+          git commit -m "Daily earnings update" || echo "No changes to commit"
 
       - name: Push changes
         run: git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
