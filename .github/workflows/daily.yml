@@ -2,8 +2,15 @@ name: Daily Earnings Update
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 9 * * *"     # 9:00 UTC daily
   workflow_dispatch:
+
+permissions:
+  contents: write            # Only what is needed
+
+concurrency:
+  group: earnings-sync
+  cancel-in-progress: true   # Prevent overlapping runs
 
 jobs:
   update:
@@ -19,7 +26,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0     # Required for pull --rebase
 
       - name: Ensure backend folder exists
         run: mkdir -p backend
@@ -29,30 +36,36 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Cache Python packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run backend script
+      - name: Run unified backend
         run: python backend/update_earnings.py
 
-      - name: Commit updated JSON and cache
+      - name: Commit updated files
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+
           git add earnings.json
           git add backend/vol_cache.json
+          git add logs/*.log || true
+          git add history/*.json || true
+
           git commit -m "Daily earnings update" || echo "No changes to commit"
-      
-      - name: Pull latest changes
+
+      - name: Pull latest changes (safe rebase)
         run: |
           git pull --rebase https://$GH_TOKEN@github.com/${{ github.repository }} main
-      
+
       - name: Push changes
         run: |
           git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
-
-          git add backend/vol_cache.json
-          git commit -m "Daily earnings update" || echo "No changes to commit"
-
-      - name: Push changes
-        run: git push https://$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
