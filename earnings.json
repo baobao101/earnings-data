@@ -6,7 +6,7 @@
     "volatility_score": 100
   },
   {
-    "ticker": "HBCP",
+    "ticker": "CPAC",
     "date": "2026-07-20",
     "source": "AlphaVantage",
     "volatility_score": 100
@@ -16,24 +16,6 @@
     "date": "2026-07-20",
     "source": "AlphaVantage",
     "volatility_score": 40.14052120592744
-  },
-  {
-    "ticker": "DPZ",
-    "date": "2026-07-20",
-    "source": "AlphaVantage",
-    "volatility_score": 34.3972313613508
-  },
-  {
-    "ticker": "FUNC",
-    "date": "2026-07-20",
-    "source": "AlphaVantage",
-    "volatility_score": 32.40352811466372
-  },
-  {
-    "ticker": "CPAC",
-    "date": "2026-07-20",
-    "source": "AlphaVantage",
-    "volatility_score": 26.572649572649574
   },
   {
     "ticker": "CCK",
@@ -54,10 +36,28 @@
     "volatility_score": 18.048128342245988
   },
   {
+    "ticker": "DPZ",
+    "date": "2026-07-20",
+    "source": "AlphaVantage",
+    "volatility_score": 0.0
+  },
+  {
     "ticker": "DX",
     "date": "2026-07-20",
     "source": "AlphaVantage",
-    "volatility_score": 17.644411102775692
+    "volatility_score": 0.0
+  },
+  {
+    "ticker": "FUNC",
+    "date": "2026-07-20",
+    "source": "AlphaVantage",
+    "volatility_score": 0.0
+  },
+  {
+    "ticker": "HBCP",
+    "date": "2026-07-20",
+    "source": "AlphaVantage",
+    "volatility_score": 0.0
   },
   {
     "ticker": "HIT",
@@ -681,25 +681,25 @@
     "ticker": "FNLC",
     "date": "2026-07-22",
     "source": "AlphaVantage",
-    "volatility_score": 0.0
+    "volatility_score": 0
   },
   {
     "ticker": "FPI",
     "date": "2026-07-22",
     "source": "AlphaVantage",
-    "volatility_score": 0.0
+    "volatility_score": 0
   },
   {
     "ticker": "FR",
     "date": "2026-07-22",
     "source": "AlphaVantage",
-    "volatility_score": 0.0
+    "volatility_score": 0
   },
   {
     "ticker": "FRME",
     "date": "2026-07-22",
     "source": "AlphaVantage",
-    "volatility_score": 0.0
+    "volatility_score": 0
   },
   {
     "ticker": "FRMM",
@@ -3837,7 +3837,7 @@
     "ticker": "CTOS",
     "date": "2026-07-29",
     "source": "AlphaVantage",
-    "volatility_score": 0.0
+    "volatility_score": 48.15280464216635
   },
   {
     "ticker": "ACR",
@@ -5550,28 +5550,28 @@
     "volatility_score": 0
   },
   {
-    "ticker": "ENVX",
-    "date": "2026-07-30",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "ACCO",
-    "date": "2026-07-30",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "METC",
     "date": "2026-07-30",
     "source": "AlphaVantage",
-    "volatility_score": 0
+    "volatility_score": 75.7032590051458
   },
   {
     "ticker": "RJET",
     "date": "2026-07-30",
     "source": "AlphaVantage",
-    "volatility_score": 0
+    "volatility_score": 68.69262056943637
+  },
+  {
+    "ticker": "ACCO",
+    "date": "2026-07-30",
+    "source": "AlphaVantage",
+    "volatility_score": 35.588235294117645
+  },
+  {
+    "ticker": "ENVX",
+    "date": "2026-07-30",
+    "source": "AlphaVantage",
+    "volatility_score": 0.0
   },
   {
     "ticker": "AAMI",
@@ -7914,12 +7914,6 @@
     "volatility_score": 0
   },
   {
-    "ticker": "WTI",
-    "date": "2026-08-03",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "ABTC",
     "date": "2026-08-03",
     "source": "AlphaVantage",
@@ -8520,6 +8514,12 @@
     "volatility_score": 0
   },
   {
+    "ticker": "WTI",
+    "date": "2026-08-03",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "ZEPP",
     "date": "2026-08-03",
     "source": "AlphaVantage",
@@ -8971,12 +8971,6 @@
   },
   {
     "ticker": "SRAD",
-    "date": "2026-08-04",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "XGN",
     "date": "2026-08-04",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -10836,6 +10830,12 @@
     "volatility_score": 0
   },
   {
+    "ticker": "XGN",
+    "date": "2026-08-04",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "XMTR",
     "date": "2026-08-04",
     "source": "AlphaVantage",
@@ -11497,12 +11497,6 @@
   },
   {
     "ticker": "STE",
-    "date": "2026-08-05",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VECO",
     "date": "2026-08-05",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -13530,6 +13524,12 @@
     "volatility_score": 0
   },
   {
+    "ticker": "VECO",
+    "date": "2026-08-05",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "VELO",
     "date": "2026-08-05",
     "source": "AlphaVantage",
@@ -14011,18 +14011,6 @@
   },
   {
     "ticker": "TTGT",
-    "date": "2026-08-06",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "UP",
-    "date": "2026-08-06",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "WTM",
     "date": "2026-08-06",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -16620,6 +16608,12 @@
     "volatility_score": 0
   },
   {
+    "ticker": "UP",
+    "date": "2026-08-06",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "URGN",
     "date": "2026-08-06",
     "source": "AlphaVantage",
@@ -16795,6 +16789,12 @@
   },
   {
     "ticker": "WRN",
+    "date": "2026-08-06",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "WTM",
     "date": "2026-08-06",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -18264,66 +18264,6 @@
     "volatility_score": 0
   },
   {
-    "ticker": "UCFI",
-    "date": "2026-08-10",
-    "source": "Finnhub",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "ULY",
-    "date": "2026-08-10",
-    "source": "Finnhub",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "UTGN",
-    "date": "2026-08-10",
-    "source": "Finnhub",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VTAK",
-    "date": "2026-08-10",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VTSI",
-    "date": "2026-08-10",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "WINT",
-    "date": "2026-08-10",
-    "source": "Finnhub",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "WNHK",
-    "date": "2026-08-10",
-    "source": "Finnhub",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "WOW",
-    "date": "2026-08-10",
-    "source": "Finnhub",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "XRPN",
-    "date": "2026-08-10",
-    "source": "Finnhub",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "YALA",
-    "date": "2026-08-10",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "AAON",
     "date": "2026-08-10",
     "source": "AlphaVantage",
@@ -18720,7 +18660,25 @@
     "volatility_score": 0
   },
   {
+    "ticker": "VTAK",
+    "date": "2026-08-10",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "VTSI",
+    "date": "2026-08-10",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "WPRT",
+    "date": "2026-08-10",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "YALA",
     "date": "2026-08-10",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -20298,84 +20256,6 @@
     "volatility_score": 0
   },
   {
-    "ticker": "TXMD",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VERU",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VHC",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VIVS",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VOC",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VOR",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "VTVT",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "WILC",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "WVVI",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "XAIR",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "XBIO",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "YHC",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "ZBIO",
-    "date": "2026-08-11",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "ACCS",
     "date": "2026-08-11",
     "source": "AlphaVantage",
@@ -20838,6 +20718,12 @@
     "volatility_score": 0
   },
   {
+    "ticker": "TXMD",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "UAMY",
     "date": "2026-08-11",
     "source": "AlphaVantage",
@@ -20856,7 +20742,43 @@
     "volatility_score": 0
   },
   {
+    "ticker": "VERU",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "VGZ",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "VHC",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "VIVS",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "VOC",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "VOR",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "VTVT",
     "date": "2026-08-11",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -20868,13 +20790,49 @@
     "volatility_score": 0
   },
   {
+    "ticker": "WILC",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "WVVI",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "XAIR",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "XBIO",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "XTNT",
     "date": "2026-08-11",
     "source": "AlphaVantage",
     "volatility_score": 0
   },
   {
+    "ticker": "YHC",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "YORW",
+    "date": "2026-08-11",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "ZBIO",
     "date": "2026-08-11",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -26778,6 +26736,78 @@
     "volatility_score": 0
   },
   {
+    "ticker": "ABHBY",
+    "date": "2026-08-18",
+    "source": "Finnhub",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "ACRG",
+    "date": "2026-08-18",
+    "source": "Finnhub",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "ASII",
+    "date": "2026-08-18",
+    "source": "Finnhub",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "EICCF",
+    "date": "2026-08-18",
+    "source": "Finnhub",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "HD",
+    "date": "2026-08-18",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "IGTA",
+    "date": "2026-08-18",
+    "source": "Finnhub",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "KLAR",
+    "date": "2026-08-18",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "NNDM",
+    "date": "2026-08-18",
+    "source": "Finnhub",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "OICT",
+    "date": "2026-08-18",
+    "source": "Finnhub",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "PHYTF",
+    "date": "2026-08-18",
+    "source": "Finnhub",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "SSM",
+    "date": "2026-08-18",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "TE",
+    "date": "2026-08-18",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
     "ticker": "AIHS",
     "date": "2026-08-18",
     "source": "AlphaVantage",
@@ -27000,12 +27030,6 @@
     "volatility_score": 0
   },
   {
-    "ticker": "WGRX",
-    "date": "2026-08-18",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "APUS",
     "date": "2026-08-18",
     "source": "AlphaVantage",
@@ -27048,19 +27072,7 @@
     "volatility_score": 0
   },
   {
-    "ticker": "HD",
-    "date": "2026-08-18",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "JHX",
-    "date": "2026-08-18",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "KLAR",
     "date": "2026-08-18",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -27084,18 +27096,6 @@
     "volatility_score": 0
   },
   {
-    "ticker": "SSM",
-    "date": "2026-08-18",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "TE",
-    "date": "2026-08-18",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "TRUG",
     "date": "2026-08-18",
     "source": "AlphaVantage",
@@ -27103,6 +27103,12 @@
   },
   {
     "ticker": "VSTD",
+    "date": "2026-08-18",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "WGRX",
     "date": "2026-08-18",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -27120,31 +27126,7 @@
     "volatility_score": 0
   },
   {
-    "ticker": "CAAP",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "ADI",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "AIDX",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "AVEX",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "BBAR",
     "date": "2026-08-19",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -27174,19 +27156,7 @@
     "volatility_score": 0
   },
   {
-    "ticker": "DRD",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "DY",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "EL",
     "date": "2026-08-19",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -27198,31 +27168,7 @@
     "volatility_score": 0
   },
   {
-    "ticker": "FJET",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "FLNG",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "FUTU",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "GDS",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "HTHT",
     "date": "2026-08-19",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -27252,12 +27198,6 @@
     "volatility_score": 0
   },
   {
-    "ticker": "LOW",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
     "ticker": "NBP",
     "date": "2026-08-19",
     "source": "AlphaVantage",
@@ -27276,13 +27216,85 @@
     "volatility_score": 0
   },
   {
-    "ticker": "NESR",
+    "ticker": "RERE",
     "date": "2026-08-19",
     "source": "AlphaVantage",
     "volatility_score": 0
   },
   {
-    "ticker": "RERE",
+    "ticker": "UFI",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "CAAP",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "AIDX",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "AVEX",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "BBAR",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "DRD",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "EL",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "FJET",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "FLNG",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "GDS",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "HTHT",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "LOW",
+    "date": "2026-08-19",
+    "source": "AlphaVantage",
+    "volatility_score": 0
+  },
+  {
+    "ticker": "NESR",
     "date": "2026-08-19",
     "source": "AlphaVantage",
     "volatility_score": 0
@@ -27301,12 +27313,6 @@
   },
   {
     "ticker": "TJX",
-    "date": "2026-08-19",
-    "source": "AlphaVantage",
-    "volatility_score": 0
-  },
-  {
-    "ticker": "UFI",
     "date": "2026-08-19",
     "source": "AlphaVantage",
     "volatility_score": 0
