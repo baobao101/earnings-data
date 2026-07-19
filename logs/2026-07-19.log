@@ -1,0 +1,243 @@
+[2026-07-19 12:42:07] === Daily Earnings Sync Started ===
+[2026-07-19 12:42:07] Log rotation + compression completed
+[2026-07-19 12:42:07] Fetching Finnhub...
+[2026-07-19 12:42:07] Attempt 1 for fetch_finnhub
+[2026-07-19 12:42:07] Finnhub URL: https://finnhub.io/api/v1/calendar/earnings?from=2026-07-18&to=2026-08-18&token=d9ds2m9r01qh24193vp0d9ds2m9r01qh24193vpg
+[2026-07-19 12:42:07] Finnhub response sample: {"earningsCalendar":[{"symbol":"ABHBY","date":"2026-08-18","hour":"","quarter":2,"year":2026,"epsEstimate":null,"epsActual":null,"revenueEstimate":null,"revenueActual":null},{"symbol":"ACRG","date":"2
+[2026-07-19 12:42:07] Total Finnhub rows: 1500
+[2026-07-19 12:42:07] Finnhub first 5: [{'ticker': 'ABHBY', 'date': '2026-08-18', 'source': 'Finnhub'}, {'ticker': 'ACRG', 'date': '2026-08-18', 'source': 'Finnhub'}, {'ticker': 'ADI', 'date': '2026-08-18', 'source': 'Finnhub'}, {'ticker': 'ASII', 'date': '2026-08-18', 'source': 'Finnhub'}, {'ticker': 'BIDU', 'date': '2026-08-18', 'source': 'Finnhub'}]
+[2026-07-19 12:42:07] Fetching AlphaVantage...
+[2026-07-19 12:42:07] Attempt 1 for fetch_alpha_vantage
+[2026-07-19 12:42:07] AlphaVantage status: 200
+[2026-07-19 12:42:07] AlphaVantage text sample: symbol,name,reportDate,fiscalDateEnding,estimate,currency,timeOfTheDay
+AGNC,AGNC INVESTMENT CORPORATION,2026-07-20,2026-06-30,0.38,USD,post-market
+AMC,AMC ENTERTAINMENT HOLDINGS INCORPORATED,2026-07-20,2026-06-30,-0.01,USD,pre-market
+BOKF,BOK FINANCIAL CORPORATION,2026-07-20,2026-06-30,2.56,USD,p
+[2026-07-19 12:42:07] Total AlphaVantage rows: 4973
+[2026-07-19 12:42:07] AlphaVantage raw sample: [{'ticker': 'AGNC', 'date': '2026-07-20', 'source': 'AlphaVantage'}, {'ticker': 'AMC', 'date': '2026-07-20', 'source': 'AlphaVantage'}, {'ticker': 'BOKF', 'date': '2026-07-20', 'source': 'AlphaVantage'}, {'ticker': 'CALX', 'date': '2026-07-20', 'source': 'AlphaVantage'}, {'ticker': 'CCK', 'date': '2026-07-20', 'source': 'AlphaVantage'}]
+[2026-07-19 12:42:07] Merging data with graceful fallback...
+[2026-07-19 12:42:07] Both APIs available — merging normally
+[2026-07-19 12:42:08] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: ENVX
+[2026-07-19 12:42:35] fetch_price_alpha parse error: 'Global Quote' ticker: CPAC
+[2026-07-19 12:42:36] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: DPZ
+[2026-07-19 12:42:37] fetch_price_alpha parse error: 'Global Quote' ticker: DPZ
+[2026-07-19 12:42:38] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: DX
+[2026-07-19 12:42:39] fetch_price_alpha parse error: 'Global Quote' ticker: DX
+[2026-07-19 12:42:40] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FUNC
+[2026-07-19 12:42:41] fetch_price_alpha parse error: 'Global Quote' ticker: FUNC
+[2026-07-19 12:42:42] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: HBCP
+[2026-07-19 12:42:43] fetch_price_alpha parse error: 'Global Quote' ticker: HBCP
+[2026-07-19 12:42:44] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: HIT
+[2026-07-19 12:42:45] fetch_price_alpha parse error: 'Global Quote' ticker: HIT
+[2026-07-19 12:42:47] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: ISTR
+[2026-07-19 12:42:48] fetch_price_alpha parse error: 'Global Quote' ticker: ISTR
+[2026-07-19 12:42:49] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: MCRI
+[2026-07-19 12:42:50] fetch_price_alpha parse error: 'Global Quote' ticker: MCRI
+[2026-07-19 12:42:51] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: PAPL
+[2026-07-19 12:42:52] fetch_price_alpha parse error: 'Global Quote' ticker: PAPL
+[2026-07-19 12:42:53] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: PEBK
+[2026-07-19 12:42:54] fetch_price_alpha parse error: 'Global Quote' ticker: PEBK
+[2026-07-19 12:42:55] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: PKE
+[2026-07-19 12:42:56] fetch_price_alpha parse error: 'Global Quote' ticker: PKE
+[2026-07-19 12:42:57] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: RBB
+[2026-07-19 12:42:58] fetch_price_alpha parse error: 'Global Quote' ticker: RBB
+[2026-07-19 12:42:59] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: RYAAY
+[2026-07-19 12:43:00] fetch_price_alpha parse error: 'Global Quote' ticker: RYAAY
+[2026-07-19 12:43:01] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: SFBS
+[2026-07-19 12:43:02] fetch_price_alpha parse error: 'Global Quote' ticker: SFBS
+[2026-07-19 12:43:03] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: SMBK
+[2026-07-19 12:43:04] fetch_price_alpha parse error: 'Global Quote' ticker: SMBK
+[2026-07-19 12:43:06] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: STLD
+[2026-07-19 12:43:07] fetch_price_alpha parse error: 'Global Quote' ticker: STLD
+[2026-07-19 12:43:08] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: WASH
+[2026-07-19 12:43:09] fetch_price_alpha parse error: 'Global Quote' ticker: WASH
+[2026-07-19 12:43:10] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: WRB
+[2026-07-19 12:43:11] fetch_price_alpha parse error: 'Global Quote' ticker: WRB
+[2026-07-19 12:43:12] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: WTFC
+[2026-07-19 12:43:13] fetch_price_alpha parse error: 'Global Quote' ticker: WTFC
+[2026-07-19 12:43:14] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: ZION
+[2026-07-19 12:43:15] fetch_price_alpha parse error: 'Global Quote' ticker: ZION
+[2026-07-19 12:43:16] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: AIR
+[2026-07-19 12:43:17] fetch_price_alpha parse error: 'Global Quote' ticker: AIR
+[2026-07-19 12:43:18] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: ALK
+[2026-07-19 12:43:19] fetch_price_alpha parse error: 'Global Quote' ticker: ALK
+[2026-07-19 12:43:20] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: ALLY
+[2026-07-19 12:43:21] fetch_price_alpha parse error: 'Global Quote' ticker: ALLY
+[2026-07-19 12:43:22] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: AMSF
+[2026-07-19 12:43:23] fetch_price_alpha parse error: 'Global Quote' ticker: AMSF
+[2026-07-19 12:43:24] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: AUB
+[2026-07-19 12:43:25] fetch_price_alpha parse error: 'Global Quote' ticker: AUB
+[2026-07-19 12:43:26] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: BWB
+[2026-07-19 12:43:27] fetch_price_alpha parse error: 'Global Quote' ticker: BWB
+[2026-07-19 12:43:28] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CB
+[2026-07-19 12:43:30] fetch_price_alpha parse error: 'Global Quote' ticker: CB
+[2026-07-19 12:43:31] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CCBG
+[2026-07-19 12:43:32] fetch_price_alpha parse error: 'Global Quote' ticker: CCBG
+[2026-07-19 12:43:33] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: COF
+[2026-07-19 12:43:34] fetch_price_alpha parse error: 'Global Quote' ticker: COF
+[2026-07-19 12:43:35] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: DHI
+[2026-07-19 12:43:36] fetch_price_alpha parse error: 'Global Quote' ticker: DHI
+[2026-07-19 12:43:37] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: DHR
+[2026-07-19 12:43:38] fetch_price_alpha parse error: 'Global Quote' ticker: DHR
+[2026-07-19 12:43:39] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EFX
+[2026-07-19 12:43:40] fetch_price_alpha parse error: 'Global Quote' ticker: EFX
+[2026-07-19 12:43:41] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EQT
+[2026-07-19 12:43:42] fetch_price_alpha parse error: 'Global Quote' ticker: EQT
+[2026-07-19 12:43:43] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EWBC
+[2026-07-19 12:43:44] fetch_price_alpha parse error: 'Global Quote' ticker: EWBC
+[2026-07-19 12:43:45] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FFBC
+[2026-07-19 12:43:46] fetch_price_alpha parse error: 'Global Quote' ticker: FFBC
+[2026-07-19 12:43:47] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FOR
+[2026-07-19 12:43:48] fetch_price_alpha parse error: 'Global Quote' ticker: FOR
+[2026-07-19 12:43:49] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: GM
+[2026-07-19 12:43:50] fetch_price_alpha parse error: 'Global Quote' ticker: GM
+[2026-07-19 12:43:52] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: GPC
+[2026-07-19 12:43:53] fetch_price_alpha parse error: 'Global Quote' ticker: GPC
+[2026-07-19 12:43:54] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: HAFC
+[2026-07-19 12:43:55] fetch_price_alpha parse error: 'Global Quote' ticker: HAFC
+[2026-07-19 12:43:56] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: HAL
+[2026-07-19 12:43:57] fetch_price_alpha parse error: 'Global Quote' ticker: HAL
+[2026-07-19 12:43:58] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: HAS
+[2026-07-19 12:43:59] fetch_price_alpha parse error: 'Global Quote' ticker: HAS
+[2026-07-19 12:44:00] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: HWC
+[2026-07-19 12:44:01] fetch_price_alpha parse error: 'Global Quote' ticker: HWC
+[2026-07-19 12:44:02] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: IBKR
+[2026-07-19 12:44:03] fetch_price_alpha parse error: 'Global Quote' ticker: IBKR
+[2026-07-19 12:44:04] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: KEY
+[2026-07-19 12:44:05] fetch_price_alpha parse error: 'Global Quote' ticker: KEY
+[2026-07-19 12:44:06] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: KREF
+[2026-07-19 12:44:07] fetch_price_alpha parse error: 'Global Quote' ticker: KREF
+[2026-07-19 12:44:08] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: MBWM
+[2026-07-19 12:44:09] fetch_price_alpha parse error: 'Global Quote' ticker: MBWM
+[2026-07-19 12:44:10] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: MCB
+[2026-07-19 12:44:11] fetch_price_alpha parse error: 'Global Quote' ticker: MCB
+[2026-07-19 12:44:12] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: MMM
+[2026-07-19 12:44:13] fetch_price_alpha parse error: 'Global Quote' ticker: MMM
+[2026-07-19 12:44:14] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: MRSH
+[2026-07-19 12:44:16] fetch_price_alpha parse error: 'Global Quote' ticker: MRSH
+[2026-07-19 12:44:17] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: MSCI
+[2026-07-19 12:44:18] fetch_price_alpha parse error: 'Global Quote' ticker: MSCI
+[2026-07-19 12:44:19] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: NBHC
+[2026-07-19 12:44:20] fetch_price_alpha parse error: 'Global Quote' ticker: NBHC
+[2026-07-19 12:44:21] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: NIC
+[2026-07-19 12:44:22] fetch_price_alpha parse error: 'Global Quote' ticker: NIC
+[2026-07-19 12:44:23] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: NLY
+[2026-07-19 12:44:24] fetch_price_alpha parse error: 'Global Quote' ticker: NLY
+[2026-07-19 12:44:25] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: NOC
+[2026-07-19 12:44:26] fetch_price_alpha parse error: 'Global Quote' ticker: NOC
+[2026-07-19 12:44:27] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: NP
+[2026-07-19 12:44:28] fetch_price_alpha parse error: 'Global Quote' ticker: NP
+[2026-07-19 12:44:29] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: NPB
+[2026-07-19 12:44:30] fetch_price_alpha parse error: 'Global Quote' ticker: NPB
+[2026-07-19 12:44:31] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: NVS
+[2026-07-19 12:44:32] fetch_price_alpha parse error: 'Global Quote' ticker: NVS
+[2026-07-19 12:44:33] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: OFG
+[2026-07-19 12:44:34] fetch_price_alpha parse error: 'Global Quote' ticker: OFG
+[2026-07-19 12:44:35] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: ORRF
+[2026-07-19 12:44:36] fetch_price_alpha parse error: 'Global Quote' ticker: ORRF
+[2026-07-19 12:44:37] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: OZK
+[2026-07-19 12:44:39] fetch_price_alpha parse error: 'Global Quote' ticker: OZK
+[2026-07-19 12:44:40] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: PEBO
+[2026-07-19 12:44:41] fetch_price_alpha parse error: 'Global Quote' ticker: PEBO
+[2026-07-19 12:44:42] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: PEGA
+[2026-07-19 12:44:43] fetch_price_alpha parse error: 'Global Quote' ticker: PEGA
+[2026-07-19 12:44:44] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: RRC
+[2026-07-19 12:44:45] fetch_price_alpha parse error: 'Global Quote' ticker: RRC
+[2026-07-19 12:44:46] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: SCHW
+[2026-07-19 12:44:47] fetch_price_alpha parse error: 'Global Quote' ticker: SCHW
+[2026-07-19 12:44:48] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: SYF
+[2026-07-19 12:44:49] fetch_price_alpha parse error: 'Global Quote' ticker: SYF
+[2026-07-19 12:44:50] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: TFIN
+[2026-07-19 12:44:51] fetch_price_alpha parse error: 'Global Quote' ticker: TFIN
+[2026-07-19 12:44:52] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: TRST
+[2026-07-19 12:44:53] fetch_price_alpha parse error: 'Global Quote' ticker: TRST
+[2026-07-19 12:44:54] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: UCB
+[2026-07-19 12:44:55] fetch_price_alpha parse error: 'Global Quote' ticker: UCB
+[2026-07-19 12:44:56] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: VICR
+[2026-07-19 12:44:57] fetch_price_alpha parse error: 'Global Quote' ticker: VICR
+[2026-07-19 12:44:58] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: VLRS
+[2026-07-19 12:44:59] fetch_price_alpha parse error: 'Global Quote' ticker: VLRS
+[2026-07-19 12:45:00] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: VMI
+[2026-07-19 12:45:01] fetch_price_alpha parse error: 'Global Quote' ticker: VMI
+[2026-07-19 12:45:03] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: WAL
+[2026-07-19 12:45:04] fetch_price_alpha parse error: 'Global Quote' ticker: WAL
+[2026-07-19 12:45:05] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: WBS
+[2026-07-19 12:45:06] fetch_price_alpha parse error: 'Global Quote' ticker: WBS
+[2026-07-19 12:45:07] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: WFRD
+[2026-07-19 12:45:08] fetch_price_alpha parse error: 'Global Quote' ticker: WFRD
+[2026-07-19 12:45:09] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: WSBC
+[2026-07-19 12:45:10] fetch_price_alpha parse error: 'Global Quote' ticker: WSBC
+[2026-07-19 12:45:11] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: ARR
+[2026-07-19 12:45:12] fetch_price_alpha parse error: 'Global Quote' ticker: ARR
+[2026-07-19 12:45:13] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: AVB
+[2026-07-19 12:45:14] fetch_price_alpha parse error: 'Global Quote' ticker: AVB
+[2026-07-19 12:45:15] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: BANC
+[2026-07-19 12:45:16] fetch_price_alpha parse error: 'Global Quote' ticker: BANC
+[2026-07-19 12:45:17] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: BANR
+[2026-07-19 12:45:18] fetch_price_alpha parse error: 'Global Quote' ticker: BANR
+[2026-07-19 12:45:19] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: BDN
+[2026-07-19 12:45:20] fetch_price_alpha parse error: 'Global Quote' ticker: BDN
+[2026-07-19 12:45:21] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: BKU
+[2026-07-19 12:45:22] fetch_price_alpha parse error: 'Global Quote' ticker: BKU
+[2026-07-19 12:45:23] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: BMI
+[2026-07-19 12:45:24] fetch_price_alpha parse error: 'Global Quote' ticker: BMI
+[2026-07-19 12:45:25] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: BRBS
+[2026-07-19 12:45:27] fetch_price_alpha parse error: 'Global Quote' ticker: BRBS
+[2026-07-19 12:45:28] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CALM
+[2026-07-19 12:45:29] fetch_price_alpha parse error: 'Global Quote' ticker: CALM
+[2026-07-19 12:45:30] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CASH
+[2026-07-19 12:45:31] fetch_price_alpha parse error: 'Global Quote' ticker: CASH
+[2026-07-19 12:45:32] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CATY
+[2026-07-19 12:45:33] fetch_price_alpha parse error: 'Global Quote' ticker: CATY
+[2026-07-19 12:45:34] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CBAN
+[2026-07-19 12:45:35] fetch_price_alpha parse error: 'Global Quote' ticker: CBAN
+[2026-07-19 12:45:36] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CCI
+[2026-07-19 12:45:37] fetch_price_alpha parse error: 'Global Quote' ticker: CCI
+[2026-07-19 12:45:38] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CCS
+[2026-07-19 12:45:39] fetch_price_alpha parse error: 'Global Quote' ticker: CCS
+[2026-07-19 12:45:40] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CFFN
+[2026-07-19 12:45:41] fetch_price_alpha parse error: 'Global Quote' ticker: CFFN
+[2026-07-19 12:45:42] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CME
+[2026-07-19 12:45:43] fetch_price_alpha parse error: 'Global Quote' ticker: CME
+[2026-07-19 12:45:44] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CSBR
+[2026-07-19 12:45:45] fetch_price_alpha parse error: 'Global Quote' ticker: CSBR
+[2026-07-19 12:45:46] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CSX
+[2026-07-19 12:45:47] fetch_price_alpha parse error: 'Global Quote' ticker: CSX
+[2026-07-19 12:45:49] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CVBF
+[2026-07-19 12:45:50] fetch_price_alpha parse error: 'Global Quote' ticker: CVBF
+[2026-07-19 12:45:51] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: CYH
+[2026-07-19 12:45:52] fetch_price_alpha parse error: 'Global Quote' ticker: CYH
+[2026-07-19 12:45:53] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EFSC
+[2026-07-19 12:45:54] fetch_price_alpha parse error: 'Global Quote' ticker: EFSC
+[2026-07-19 12:45:55] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EGBN
+[2026-07-19 12:45:56] fetch_price_alpha parse error: 'Global Quote' ticker: EGBN
+[2026-07-19 12:45:57] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EGP
+[2026-07-19 12:45:58] fetch_price_alpha parse error: 'Global Quote' ticker: EGP
+[2026-07-19 12:45:59] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: ELS
+[2026-07-19 12:46:00] fetch_price_alpha parse error: 'Global Quote' ticker: ELS
+[2026-07-19 12:46:01] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EPRT
+[2026-07-19 12:46:02] fetch_price_alpha parse error: 'Global Quote' ticker: EPRT
+[2026-07-19 12:46:03] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EQNR
+[2026-07-19 12:46:04] fetch_price_alpha parse error: 'Global Quote' ticker: EQNR
+[2026-07-19 12:46:05] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: EQR
+[2026-07-19 12:46:06] fetch_price_alpha parse error: 'Global Quote' ticker: EQR
+[2026-07-19 12:46:07] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FAF
+[2026-07-19 12:46:08] fetch_price_alpha parse error: 'Global Quote' ticker: FAF
+[2026-07-19 12:46:09] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FBNC
+[2026-07-19 12:46:10] fetch_price_alpha parse error: 'Global Quote' ticker: FBNC
+[2026-07-19 12:46:11] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FBP
+[2026-07-19 12:46:13] fetch_price_alpha parse error: 'Global Quote' ticker: FBP
+[2026-07-19 12:46:14] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FCCO
+[2026-07-19 12:46:15] fetch_price_alpha parse error: 'Global Quote' ticker: FCCO
+[2026-07-19 12:46:16] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FDBC
+[2026-07-19 12:46:17] fetch_price_alpha parse error: 'Global Quote' ticker: FDBC
+[2026-07-19 12:46:18] fetch_atr_ratio_alpha parse error: 'Technical Analysis: ATR' ticker: FMNB
+[2026-07-19 12:46:19] fetch_price_alpha parse error: 'Global Quote' ticker: FMNB
+[2026-07-19 12:46:20] Merged sample: [{'ticker': 'AMC', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 100}, {'ticker': 'CPAC', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 100}, {'ticker': 'CALX', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 40.14052120592744}, {'ticker': 'CCK', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 25.198361914512414}, {'ticker': 'BOKF', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 19.525630133106766}, {'ticker': 'AGNC', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 18.048128342245988}, {'ticker': 'DPZ', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'DX', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'FUNC', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'HBCP', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'HIT', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'ISTR', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'MCRI', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'PAPL', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'PEBK', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'PKE', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'RBB', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'RYAAY', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'SFBS', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}, {'ticker': 'SMBK', 'date': '2026-07-20', 'source': 'AlphaVantage', 'volatility_score': 0.0}]
+[2026-07-19 12:46:20] Cache sample: [('ENVX', {'iv': None, 'move': None, 'beta': None, 'atr': 0, 'price': 4.72, 'last_update': '2026-07-19'}), ('ACCO', {'iv': None, 'move': None, 'beta': None, 'atr': 0.1452, 'price': 4.08, 'last_update': '2026-07-19'}), ('CTOS', {'iv': None, 'move': None, 'beta': None, 'atr': 0.4979, 'price': 10.34, 'last_update': '2026-07-19'}), ('METC', {'iv': None, 'move': None, 'beta': None, 'atr': 0.8827, 'price': 11.66, 'last_update': '2026-07-19'}), ('RJET', {'iv': None, 'move': None, 'beta': None, 'atr': 1.1822, 'price': 17.21, 'last_update': '2026-07-19'})]
+[2026-07-19 12:46:20] Merged 5427 tickers
+[2026-07-19 12:46:20] Saved history snapshot: history/2026-07-19.json
+[2026-07-19 12:46:20] Sending SUCCESS notification
+[2026-07-19 12:46:20] Saved earnings.json locally
+[2026-07-19 12:46:21] Upload status: 200 {"content":{"name":"earnings.json","path":"earnings.json","sha":"cbe22db9e3ab1a6d06f83562cba869e610ac797d","size":610026,"url":"https://api.github.com/repos/baobao101/earnings-data/contents/earnings.json?ref=main","html_url":"https://github.com/baobao101/earnings-data/blob/main/earnings.json","git_url":"https://api.github.com/repos/baobao101/earnings-data/git/blobs/cbe22db9e3ab1a6d06f83562cba869e610ac797d","download_url":"https://raw.githubusercontent.com/baobao101/earnings-data/main/earnings.json","type":"file","_links":{"self":"https://api.github.com/repos/baobao101/earnings-data/contents/earnings.json?ref=main","git":"https://api.github.com/repos/baobao101/earnings-data/git/blobs/cbe22db9e3ab1a6d06f83562cba869e610ac797d","html":"https://github.com/baobao101/earnings-data/blob/main/earnings.json"}},"commit":{"sha":"a4132b3d9b0c087ce554091eabae0f7a62eed659","node_id":"C_kwDOTcEYRNoAKGE0MTMyYjNkOWIwYzA4N2NlNTU0MDkxZWFiYWUwZjdhNjJlZWQ2NTk","url":"https://api.github.com/repos/baobao101/earnings-data/git/commits/a4132b3d9b0c087ce554091eabae0f7a62eed659","html_url":"https://github.com/baobao101/earnings-data/commit/a4132b3d9b0c087ce554091eabae0f7a62eed659","author":{"name":"baobao101","email":"brooklyne@live.com","date":"2026-07-19T12:46:20Z"},"committer":{"name":"baobao101","email":"brooklyne@live.com","date":"2026-07-19T12:46:20Z"},"tree":{"sha":"e6a42c6b286810836ffb76336d3c7e87346a7efb","url":"https://api.github.com/repos/baobao101/earnings-data/git/trees/e6a42c6b286810836ffb76336d3c7e87346a7efb"},"message":"Daily earnings update","parents":[{"sha":"18fa530063ab325dbd4958d51166f691f0f03a15","url":"https://api.github.com/repos/baobao101/earnings-data/git/commits/18fa530063ab325dbd4958d51166f691f0f03a15","html_url":"https://github.com/baobao101/earnings-data/commit/18fa530063ab325dbd4958d51166f691f0f03a15"}],"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}}}
+[2026-07-19 12:46:21] === Sync Completed ===
