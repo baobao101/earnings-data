@@ -1,3 +1,4 @@
+#not designed for logging, drift detection, or fallback to Obvibase
 import requests
 import json
 import base64
