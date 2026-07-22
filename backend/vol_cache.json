@@ -3,17 +3,17 @@
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 0.4539,
-    "price": 4.57,
-    "last_update": "2026-07-21"
+    "atr": 0.4461,
+    "price": 4.825,
+    "last_update": "2026-07-22"
   },
   "ACCO": {
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 0.1413,
-    "price": 4.03,
-    "last_update": "2026-07-21"
+    "atr": 0.1369,
+    "price": 4.02,
+    "last_update": "2026-07-22"
   },
   "CTOS": {
     "iv": null,
@@ -27,33 +27,33 @@
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 0.8618,
-    "price": 11.44,
-    "last_update": "2026-07-21"
+    "atr": 0.8374,
+    "price": 11.87,
+    "last_update": "2026-07-22"
   },
   "RJET": {
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 1.152,
-    "price": 17.85,
-    "last_update": "2026-07-21"
+    "atr": 1.1269,
+    "price": 17.66,
+    "last_update": "2026-07-22"
   },
   "ARIS": {
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 0.9301,
-    "price": 13.87,
-    "last_update": "2026-07-21"
+    "atr": 0.9318,
+    "price": 14.7,
+    "last_update": "2026-07-22"
   },
   "COMP": {
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 0.6289,
-    "price": 11.74,
-    "last_update": "2026-07-21"
+    "atr": 0.6175,
+    "price": 11.42,
+    "last_update": "2026-07-22"
   },
   "AGNC": {
     "iv": null,
@@ -1196,32 +1196,32 @@
     "move": null,
     "beta": null,
     "atr": 0,
-    "price": 3.62,
-    "last_update": "2026-07-21"
+    "price": 3.5,
+    "last_update": "2026-07-22"
   },
   "LENZ": {
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 0.4339,
-    "price": 4.96,
-    "last_update": "2026-07-21"
+    "atr": 0.4222,
+    "price": 5.16,
+    "last_update": "2026-07-22"
   },
   "SLSN": {
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 0.1169,
-    "price": 0.7302,
-    "last_update": "2026-07-21"
+    "atr": 0.1178,
+    "price": 0.771,
+    "last_update": "2026-07-22"
   },
   "COCH": {
     "iv": null,
     "move": null,
     "beta": null,
-    "atr": 0.0737,
-    "price": 0.671,
-    "last_update": "2026-07-21"
+    "atr": 0.0769,
+    "price": 0.6805,
+    "last_update": "2026-07-22"
   },
   "KOF": {
     "iv": null,
@@ -1614,5 +1614,885 @@
     "atr": 0,
     "price": 1,
     "last_update": "2026-07-21"
+  },
+  "BZH": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 1.1395,
+    "price": 32.82,
+    "last_update": "2026-07-22"
+  },
+  "AAL": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0.6666,
+    "price": 15.28,
+    "last_update": "2026-07-22"
+  },
+  "ABCB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 1.8372,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ACI": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ACNB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ACU": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ALLE": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "AMAL": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "AMBP": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "AMP": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "AMTB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "APPF": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ARGX": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "AROW": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ASB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ASPS": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ATRC": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "AVBC": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "AVBH": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BFH": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BFST": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BHRB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BPOP": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BPRN": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BWFG": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BWMX": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BX": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BY": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "BYD": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CARE": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CFFI": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CIVB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CLF": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CLST": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CMCSA": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CNOB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "COCO": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "COKE": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "COLB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CUBI": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "CX": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "DB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "DCOM": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "DECK": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "DGX": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "DLR": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "DOV": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "DOW": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "EBC": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ECBK": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "EFSI": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ENSG": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ENVA": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ESQ": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "EW": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FCFS": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FCNCA": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FCX": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FIBK": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FISI": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FIX": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FMBH": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FNWB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FPH": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FRBA": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FRST": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "FSV": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "GBCI": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HBAN": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HFWA": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HIG": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HOG": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HON": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HSCS": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HTH": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HTLD": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "HZO": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "IBCP": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "IMA": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "IMAX": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "INFY": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "INTC": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ISBA": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "IVR": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "JAKK": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "KN": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "KNSL": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "KRNY": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "LADR": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "LAZ": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "LMT": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "LYG": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "MBLY": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "MGYR": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "MRBK": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "MSBI": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "MXL": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "MYFW": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "NDAQ": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "NECB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "NEM": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "NOK": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "NSC": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "NVCR": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "OPBK": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "OPTT": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ORC": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "ORI": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "OVV": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
+  },
+  "PCB": {
+    "iv": null,
+    "move": null,
+    "beta": null,
+    "atr": 0,
+    "price": 1,
+    "last_update": "2026-07-22"
   }
 }
